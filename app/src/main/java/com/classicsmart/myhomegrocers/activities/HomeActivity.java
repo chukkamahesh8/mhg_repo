@@ -35,7 +35,7 @@ public class HomeActivity extends AppCompatActivity {
     RecyclerView rvCategories, rvProducts;
     GridLayoutManager gmCategories, gmProducts;
     Button menuButton;
-    TextView categoryLevel, notificaton, tvLogout;
+    TextView categoryLevel, notificaton, tvLogout,cart;
     View viewMenu;
     ScrollView scrollView;
     ViewPager viewPager;
@@ -92,6 +92,7 @@ public class HomeActivity extends AppCompatActivity {
             Intent intent = new Intent(this, NotificationsActivity.class);
             startActivity(intent);
         });
+
         tvLogout.setOnClickListener(view -> {
             DataHelper.clearData(this);
             Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
@@ -99,8 +100,6 @@ public class HomeActivity extends AppCompatActivity {
             finish();
         });
     }
-
-
     public void homeProfile(View view) {
         Intent intent = new Intent(this, RighttopNavigationActivity.class);
         startActivity(intent);

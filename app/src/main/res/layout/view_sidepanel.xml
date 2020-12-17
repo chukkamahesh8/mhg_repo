@@ -6,8 +6,7 @@
         android:id="@+id/rl_panel"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#8c000000"
-        android:clickable="true">
+        android:background="#8c000000">
 
         <LinearLayout
             android:id="@+id/ll_profile"
@@ -34,7 +33,6 @@
                 android:textColor="@color/bright_orange"
                 android:textSize="18sp" />
         </LinearLayout>
-
 
         <androidx.cardview.widget.CardView
             android:layout_width="wrap_content"
@@ -69,12 +67,14 @@
                     android:textSize="15sp" />
 
                 <TextView
+                    android:id="@+id/tv_cart"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:drawableStart="@drawable/ic_empty_cart"
                     android:drawablePadding="@dimen/_5sdp"
                     android:fontFamily="@font/poppins_regular"
                     android:text="Cart (4)"
+                    android:clickable="true"
                     android:textColor="@color/colorBlack"
                     android:textSize="15sp" />
 
@@ -110,5 +110,6 @@
                     android:textSize="15sp" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
+
     </RelativeLayout>
 </layout>

@@ -82,6 +82,7 @@ public class DashBoardActivity extends BaseActivity implements View.OnClickListe
         mIvSpecialOffers = findViewById(R.id.iv_special_offers);
         toolbar = findViewById(R.id.toolbar);
 
+
       /*  ivBack = findViewById(R.id.ivBack);
         ivBack.setOnClickListener(v -> {
             finish();
@@ -172,6 +173,7 @@ public class DashBoardActivity extends BaseActivity implements View.OnClickListe
                         mIvNotifications.setImageResource(R.drawable.ic_bell_inactive);
                         mIvSpecialOffers.setImageResource(R.drawable.ic_special_offers_inactive);
                         mIvCart.setImageResource(R.drawable.ic_active_cart);
+
                     }
                 }
                 break;

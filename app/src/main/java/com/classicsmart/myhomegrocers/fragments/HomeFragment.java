@@ -13,6 +13,7 @@ import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.GridLayoutManager;
 
 import com.classicsmart.myhomegrocers.R;
+import com.classicsmart.myhomegrocers.activities.CartActivity;
 import com.classicsmart.myhomegrocers.activities.DeliveryAddressActivity;
 import com.classicsmart.myhomegrocers.activities.LoginActivity;
 import com.classicsmart.myhomegrocers.activities.NotificationsActivity;
@@ -91,6 +92,12 @@ public class HomeFragment extends Fragment {
             Intent intent = new Intent(getContext(), NotificationsActivity.class);
             startActivity(intent);
         });
+
+        homeBinding.viewMore.tvCart.setOnClickListener(view -> {
+            closeTopMenu();
+            Intent intent=new Intent(getContext(), CartActivity.class);
+            startActivity(intent);
+        });
         homeBinding.viewMore.tvLogout.setOnClickListener(view -> {
             DataHelper.clearData(getContext());
             Intent intent = new Intent(getContext(), LoginActivity.class);
@@ -115,6 +122,10 @@ public class HomeFragment extends Fragment {
         Intent intent = new Intent(getContext(), DeliveryAddressActivity.class);
         startActivity(intent);
     }
+
+   /* public void navigateToCart(){
+        Intent
+    }*/
 
     public void updateData(Data data) {
         if (data != null) {

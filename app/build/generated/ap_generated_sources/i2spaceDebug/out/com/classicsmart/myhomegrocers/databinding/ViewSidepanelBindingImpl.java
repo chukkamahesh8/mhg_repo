@@ -17,7 +17,8 @@ public class ViewSidepanelBindingImpl extends ViewSidepanelBinding  {
         sViewsWithIds.put(R.id.ll_profile, 1);
         sViewsWithIds.put(R.id.menuClose, 2);
         sViewsWithIds.put(R.id.tv_Notification, 3);
-        sViewsWithIds.put(R.id.tv_logout, 4);
+        sViewsWithIds.put(R.id.tv_cart, 4);
+        sViewsWithIds.put(R.id.tv_logout, 5);
     }
     // views
     // variables
@@ -26,7 +27,7 @@ public class ViewSidepanelBindingImpl extends ViewSidepanelBinding  {
     // Inverse Binding Event Handlers
 
     public ViewSidepanelBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 5, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 6, sIncludes, sViewsWithIds));
     }
     private ViewSidepanelBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
@@ -34,6 +35,7 @@ public class ViewSidepanelBindingImpl extends ViewSidepanelBinding  {
             , (android.widget.Button) bindings[2]
             , (android.widget.RelativeLayout) bindings[0]
             , (android.widget.TextView) bindings[4]
+            , (android.widget.TextView) bindings[5]
             , (android.widget.TextView) bindings[3]
             );
         this.rlPanel.setTag(null);

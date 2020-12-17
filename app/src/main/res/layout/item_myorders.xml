@@ -126,7 +126,7 @@
                 android:layout_height="50dp"
                 android:layout_gravity="end"
                 android:layout_weight="1"
-                android:background="@drawable/rounded_border"
+                android:background="@drawable/slimrounded"
                 android:fontFamily="@font/poppins_semibold"
                 android:gravity="center"
                 android:includeFontPadding="false"

@@ -27,18 +27,22 @@ public abstract class ViewSidepanelBinding extends ViewDataBinding {
   public final RelativeLayout rlPanel;
 
   @NonNull
+  public final TextView tvCart;
+
+  @NonNull
   public final TextView tvLogout;
 
   @NonNull
   public final TextView tvNotification;
 
   protected ViewSidepanelBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      LinearLayout llProfile, Button menuClose, RelativeLayout rlPanel, TextView tvLogout,
-      TextView tvNotification) {
+      LinearLayout llProfile, Button menuClose, RelativeLayout rlPanel, TextView tvCart,
+      TextView tvLogout, TextView tvNotification) {
     super(_bindingComponent, _root, _localFieldCount);
     this.llProfile = llProfile;
     this.menuClose = menuClose;
     this.rlPanel = rlPanel;
+    this.tvCart = tvCart;
     this.tvLogout = tvLogout;
     this.tvNotification = tvNotification;
   }

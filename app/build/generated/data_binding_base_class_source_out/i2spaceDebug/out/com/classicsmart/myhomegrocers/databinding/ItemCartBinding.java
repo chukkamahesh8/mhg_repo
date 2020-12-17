@@ -10,7 +10,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import androidx.cardview.widget.CardView;
 import androidx.viewbinding.ViewBinding;
 import com.classicsmart.myhomegrocers.R;
 import java.lang.NullPointerException;
@@ -19,7 +18,7 @@ import java.lang.String;
 
 public final class ItemCartBinding implements ViewBinding {
   @NonNull
-  private final CardView rootView;
+  private final LinearLayout rootView;
 
   @NonNull
   public final RelativeLayout addToCart;
@@ -54,7 +53,7 @@ public final class ItemCartBinding implements ViewBinding {
   @NonNull
   public final TextView tvminus;
 
-  private ItemCartBinding(@NonNull CardView rootView, @NonNull RelativeLayout addToCart,
+  private ItemCartBinding(@NonNull LinearLayout rootView, @NonNull RelativeLayout addToCart,
       @NonNull LinearLayout llImgcart, @NonNull ImageView productdelete,
       @NonNull ImageView productimg, @NonNull TextView productprice,
       @NonNull ImageView productshare, @NonNull ImageView productwishlist, @NonNull TextView tvPlus,
@@ -76,7 +75,7 @@ public final class ItemCartBinding implements ViewBinding {
 
   @Override
   @NonNull
-  public CardView getRoot() {
+  public LinearLayout getRoot() {
     return rootView;
   }
 
@@ -167,7 +166,7 @@ public final class ItemCartBinding implements ViewBinding {
         break missingId;
       }
 
-      return new ItemCartBinding((CardView) rootView, addToCart, llImgcart, productdelete,
+      return new ItemCartBinding((LinearLayout) rootView, addToCart, llImgcart, productdelete,
           productimg, productprice, productshare, productwishlist, tvPlus, tvProductcount,
           tvProductname, tvminus);
     }

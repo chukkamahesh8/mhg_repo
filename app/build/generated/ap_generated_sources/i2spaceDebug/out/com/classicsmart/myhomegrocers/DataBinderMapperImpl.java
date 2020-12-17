@@ -7,6 +7,7 @@ import androidx.databinding.DataBinderMapper;
 import androidx.databinding.DataBindingComponent;
 import androidx.databinding.ViewDataBinding;
 import com.classicsmart.myhomegrocers.databinding.ActivityAddNewaddressBindingImpl;
+import com.classicsmart.myhomegrocers.databinding.ActivityCartBindingImpl;
 import com.classicsmart.myhomegrocers.databinding.ActivityCategoryWishlist2BindingImpl;
 import com.classicsmart.myhomegrocers.databinding.ActivityDeliveryAddressBindingImpl;
 import com.classicsmart.myhomegrocers.databinding.ActivityForgotpasswordBindingImpl;
@@ -54,78 +55,81 @@ import java.util.List;
 public class DataBinderMapperImpl extends DataBinderMapper {
   private static final int LAYOUT_ACTIVITYADDNEWADDRESS = 1;
 
-  private static final int LAYOUT_ACTIVITYCATEGORYWISHLIST2 = 2;
+  private static final int LAYOUT_ACTIVITYCART = 2;
 
-  private static final int LAYOUT_ACTIVITYDELIVERYADDRESS = 3;
+  private static final int LAYOUT_ACTIVITYCATEGORYWISHLIST2 = 3;
 
-  private static final int LAYOUT_ACTIVITYFORGOTPASSWORD = 4;
+  private static final int LAYOUT_ACTIVITYDELIVERYADDRESS = 4;
 
-  private static final int LAYOUT_ACTIVITYHOME = 5;
+  private static final int LAYOUT_ACTIVITYFORGOTPASSWORD = 5;
 
-  private static final int LAYOUT_ACTIVITYLOGIN = 6;
+  private static final int LAYOUT_ACTIVITYHOME = 6;
 
-  private static final int LAYOUT_ACTIVITYLOGINFLOW = 7;
+  private static final int LAYOUT_ACTIVITYLOGIN = 7;
 
-  private static final int LAYOUT_ACTIVITYLOGINOTP = 8;
+  private static final int LAYOUT_ACTIVITYLOGINFLOW = 8;
 
-  private static final int LAYOUT_ACTIVITYLOGINPASSWORD = 9;
+  private static final int LAYOUT_ACTIVITYLOGINOTP = 9;
 
-  private static final int LAYOUT_ACTIVITYMAINSIGNUP = 10;
+  private static final int LAYOUT_ACTIVITYLOGINPASSWORD = 10;
 
-  private static final int LAYOUT_ACTIVITYMYORDERS = 11;
+  private static final int LAYOUT_ACTIVITYMAINSIGNUP = 11;
 
-  private static final int LAYOUT_ACTIVITYNOTIFICATIONS = 12;
+  private static final int LAYOUT_ACTIVITYMYORDERS = 12;
 
-  private static final int LAYOUT_ACTIVITYSIGNUP = 13;
+  private static final int LAYOUT_ACTIVITYNOTIFICATIONS = 13;
 
-  private static final int LAYOUT_BOTTOMBAR = 14;
+  private static final int LAYOUT_ACTIVITYSIGNUP = 14;
 
-  private static final int LAYOUT_CARTFRAGMENT = 15;
+  private static final int LAYOUT_BOTTOMBAR = 15;
 
-  private static final int LAYOUT_FRAGMENTHOME = 16;
+  private static final int LAYOUT_CARTFRAGMENT = 16;
 
-  private static final int LAYOUT_ITEMADDCART = 17;
+  private static final int LAYOUT_FRAGMENTHOME = 17;
 
-  private static final int LAYOUT_ITEMCATEGORYROW = 18;
+  private static final int LAYOUT_ITEMADDCART = 18;
 
-  private static final int LAYOUT_ITEMCHANGEPASSWORD = 19;
+  private static final int LAYOUT_ITEMCATEGORYROW = 19;
 
-  private static final int LAYOUT_ITEMENTERFORGOTPASSWORD = 20;
+  private static final int LAYOUT_ITEMCHANGEPASSWORD = 20;
 
-  private static final int LAYOUT_ITEMNEWPRODUCT = 21;
+  private static final int LAYOUT_ITEMENTERFORGOTPASSWORD = 21;
 
-  private static final int LAYOUT_ITEMOFFER = 22;
+  private static final int LAYOUT_ITEMNEWPRODUCT = 22;
 
-  private static final int LAYOUT_ITEMPRODUCT = 23;
+  private static final int LAYOUT_ITEMOFFER = 23;
 
-  private static final int LAYOUT_LISTUPDATES = 24;
+  private static final int LAYOUT_ITEMPRODUCT = 24;
 
-  private static final int LAYOUT_MYORDERSFRAGMENT = 25;
+  private static final int LAYOUT_LISTUPDATES = 25;
 
-  private static final int LAYOUT_NOTIFICATIONSFRAGMENT = 26;
+  private static final int LAYOUT_MYORDERSFRAGMENT = 26;
 
-  private static final int LAYOUT_RIGHTTOPNAVIGATION = 27;
+  private static final int LAYOUT_NOTIFICATIONSFRAGMENT = 27;
 
-  private static final int LAYOUT_SPECIALOFFERSFRAGMENT = 28;
+  private static final int LAYOUT_RIGHTTOPNAVIGATION = 28;
 
-  private static final int LAYOUT_VIEWOTP = 29;
+  private static final int LAYOUT_SPECIALOFFERSFRAGMENT = 29;
 
-  private static final int LAYOUT_VIEWOTPVERIFICATION = 30;
+  private static final int LAYOUT_VIEWOTP = 30;
 
-  private static final int LAYOUT_VIEWPASSWORD = 31;
+  private static final int LAYOUT_VIEWOTPVERIFICATION = 31;
 
-  private static final int LAYOUT_VIEWSIDEPANEL = 32;
+  private static final int LAYOUT_VIEWPASSWORD = 32;
 
-  private static final int LAYOUT_VIEWSLIDER = 33;
+  private static final int LAYOUT_VIEWSIDEPANEL = 33;
 
-  private static final int LAYOUT_VIEWVERIFYMOBILENO = 34;
+  private static final int LAYOUT_VIEWSLIDER = 34;
 
-  private static final int LAYOUT_VIEWVERIFYTESTMAIL = 35;
+  private static final int LAYOUT_VIEWVERIFYMOBILENO = 35;
 
-  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(35);
+  private static final int LAYOUT_VIEWVERIFYTESTMAIL = 36;
+
+  private static final SparseIntArray INTERNAL_LAYOUT_ID_LOOKUP = new SparseIntArray(36);
 
   static {
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.classicsmart.myhomegrocers.R.layout.activity_add_newaddress, LAYOUT_ACTIVITYADDNEWADDRESS);
+    INTERNAL_LAYOUT_ID_LOOKUP.put(com.classicsmart.myhomegrocers.R.layout.activity_cart, LAYOUT_ACTIVITYCART);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.classicsmart.myhomegrocers.R.layout.activity_category_wishlist2, LAYOUT_ACTIVITYCATEGORYWISHLIST2);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.classicsmart.myhomegrocers.R.layout.activity_delivery_address, LAYOUT_ACTIVITYDELIVERYADDRESS);
     INTERNAL_LAYOUT_ID_LOOKUP.put(com.classicsmart.myhomegrocers.R.layout.activity_forgotpassword, LAYOUT_ACTIVITYFORGOTPASSWORD);
@@ -176,6 +180,12 @@ public class DataBinderMapperImpl extends DataBinderMapper {
             return new ActivityAddNewaddressBindingImpl(component, view);
           }
           throw new IllegalArgumentException("The tag for activity_add_newaddress is invalid. Received: " + tag);
+        }
+        case  LAYOUT_ACTIVITYCART: {
+          if ("layout/activity_cart_0".equals(tag)) {
+            return new ActivityCartBindingImpl(component, view);
+          }
+          throw new IllegalArgumentException("The tag for activity_cart is invalid. Received: " + tag);
         }
         case  LAYOUT_ACTIVITYCATEGORYWISHLIST2: {
           if ("layout/activity_category_wishlist2_0".equals(tag)) {
@@ -434,10 +444,11 @@ public class DataBinderMapperImpl extends DataBinderMapper {
   }
 
   private static class InnerLayoutIdLookup {
-    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(35);
+    static final HashMap<String, Integer> sKeys = new HashMap<String, Integer>(36);
 
     static {
       sKeys.put("layout/activity_add_newaddress_0", com.classicsmart.myhomegrocers.R.layout.activity_add_newaddress);
+      sKeys.put("layout/activity_cart_0", com.classicsmart.myhomegrocers.R.layout.activity_cart);
       sKeys.put("layout/activity_category_wishlist2_0", com.classicsmart.myhomegrocers.R.layout.activity_category_wishlist2);
       sKeys.put("layout/activity_delivery_address_0", com.classicsmart.myhomegrocers.R.layout.activity_delivery_address);
       sKeys.put("layout/activity_forgotpassword_0", com.classicsmart.myhomegrocers.R.layout.activity_forgotpassword);

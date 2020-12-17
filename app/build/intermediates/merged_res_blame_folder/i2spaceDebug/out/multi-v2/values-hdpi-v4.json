@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+            "outputFile": "E:\\chandu\\MHG latest\\app\\build\\intermediates\\incremental\\mergeI2spaceDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
             "map": [
                 {
-                    "source": "/Users/mahesh/.gradle/caches/transforms-2/files-2.1/a527ad4f532df6b258c428a911debd89/appcompat-1.2.0/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-2\\files-2.1\\a527ad4f532df6b258c428a911debd89\\appcompat-1.2.0\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

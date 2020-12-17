@@ -65,12 +65,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:layout_marginBottom="@dimen/_2sdp"
                     android:fontFamily="@font/poppins_medium"
                     android:gravity="center"
                     android:text="A product description lines if available. not a bad right."
-                    android:textColor="@color/colorgray1"
-                    android:textSize="7sp" />
+                    android:textColor="@color/colorBlack"
+                    android:textSize="9sp" />
 
                 <TextView
                     android:id="@+id/txt_quantity"
@@ -79,6 +79,7 @@
                     android:layout_gravity="center"
                     android:fontFamily="@font/poppins_semibold"
                     android:text="2.5KG - Pouch"
+                    android:layout_marginBottom="@dimen/_3sdp"
                     android:textColor="@color/colorBlack"
                     android:textSize="10sp" />
 
@@ -87,7 +88,8 @@
                     style="?android:attr/ratingBarStyleSmall"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center" />
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="@dimen/_3sdp"/>
 
                 <TextView
                     android:id="@+id/txt_price"
@@ -97,7 +99,7 @@
                     android:fontFamily="@font/poppins_medium"
                     android:text="$ XX.XX"
                     android:textColor="@color/bright_orange"
-                    android:textSize="10sp" />
+                    android:textSize="15sp" />
 
 
                 <LinearLayout
@@ -151,7 +153,7 @@
                         android:padding="2dp"
                         android:text="Go to Cart"
                         android:textColor="@color/bright_orange"
-                        android:textSize="8sp" />
+                        android:textSize="11sp" />
                 </LinearLayout>
 
 

@@ -24,8 +24,6 @@ com/classicsmart/myhomegrocers/models/cart/DeleteCartData.java
  com.classicsmart.myhomegrocers.models.cart.DeleteCartData
 com/classicsmart/myhomegrocers/models/dashboard/SubCategory_.java
  com.classicsmart.myhomegrocers.models.dashboard.SubCategory_
-com/classicsmart/myhomegrocers/models/SendOtpPayLoad.java
- com.classicsmart.myhomegrocers.models.SendOtpPayLoad
 com/classicsmart/myhomegrocers/activities/ForgotPasswordActivity.java
  com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity
  com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity$1
@@ -34,12 +32,14 @@ com/classicsmart/myhomegrocers/activities/ForgotPasswordActivity.java
  com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity$4
  com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity$5
  com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity$6
+com/classicsmart/myhomegrocers/models/SendOtpPayLoad.java
+ com.classicsmart.myhomegrocers.models.SendOtpPayLoad
 com/classicsmart/myhomegrocers/models/ValidateMailOrPhonePayload.java
  com.classicsmart.myhomegrocers.models.ValidateMailOrPhonePayload
-com/classicsmart/myhomegrocers/models/account/ReferAndEarnResponse.java
- com.classicsmart.myhomegrocers.models.account.ReferAndEarnResponse
 com/classicsmart/myhomegrocers/databinding/ActivityForgotpasswordBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityForgotpasswordBinding
+com/classicsmart/myhomegrocers/models/account/ReferAndEarnResponse.java
+ com.classicsmart.myhomegrocers.models.account.ReferAndEarnResponse
 com/classicsmart/myhomegrocers/adapters/CartAdapter.java
  com.classicsmart.myhomegrocers.adapters.CartAdapter
  com.classicsmart.myhomegrocers.adapters.CartAdapter$MyViewHolder
@@ -51,8 +51,8 @@ com/classicsmart/myhomegrocers/models/userAuth/Status.java
  com.classicsmart.myhomegrocers.models.userAuth.Status
 com/classicsmart/myhomegrocers/databinding/ActivityWelcomeBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityWelcomeBinding
-com/classicsmart/myhomegrocers/models/account/MHGRewardResponse.java
- com.classicsmart.myhomegrocers.models.account.MHGRewardResponse
+com/classicsmart/myhomegrocers/databinding/ItemChangePasswordBinding.java
+ com.classicsmart.myhomegrocers.databinding.ItemChangePasswordBinding
 com/classicsmart/myhomegrocers/presenters/MyOrdersPresenter.java
  com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter
  com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter$1
@@ -61,8 +61,8 @@ com/classicsmart/myhomegrocers/presenters/MyOrdersPresenter.java
  com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter$4
  com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter$5
  com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter$6
-com/classicsmart/myhomegrocers/databinding/ItemChangePasswordBinding.java
- com.classicsmart.myhomegrocers.databinding.ItemChangePasswordBinding
+com/classicsmart/myhomegrocers/models/account/MHGRewardResponse.java
+ com.classicsmart.myhomegrocers.models.account.MHGRewardResponse
 com/classicsmart/myhomegrocers/models/dashboard/PreviouslyOrderedProduct.java
  com.classicsmart.myhomegrocers.models.dashboard.PreviouslyOrderedProduct
 com/classicsmart/myhomegrocers/databinding/ViewConfirmaddressBinding.java
@@ -72,12 +72,14 @@ com/classicsmart/myhomegrocers/activities/SplashScreenActivity.java
  com.classicsmart.myhomegrocers.activities.SplashScreenActivity$1
 com/classicsmart/myhomegrocers/databinding/ItemCategoryRowBinding.java
  com.classicsmart.myhomegrocers.databinding.ItemCategoryRowBinding
+com/classicsmart/myhomegrocers/activities/CartActivity.java
+ com.classicsmart.myhomegrocers.activities.CartActivity
 com/classicsmart/myhomegrocers/App.java
  com.classicsmart.myhomegrocers.App
-com/classicsmart/myhomegrocers/utils/Utills.java
- com.classicsmart.myhomegrocers.utils.Utills
 com/classicsmart/myhomegrocers/databinding/ActivityCategoryWishlist2Binding.java
  com.classicsmart.myhomegrocers.databinding.ActivityCategoryWishlist2Binding
+com/classicsmart/myhomegrocers/utils/Utills.java
+ com.classicsmart.myhomegrocers.utils.Utills
 com/classicsmart/myhomegrocers/models/userAuth/UserDetails.java
  com.classicsmart.myhomegrocers.models.userAuth.UserDetails
 com/classicsmart/myhomegrocers/adapters/ViewPagerAdapter.java
@@ -96,6 +98,8 @@ com/classicsmart/myhomegrocers/databinding/ViewSplashscreen3Binding.java
  com.classicsmart.myhomegrocers.databinding.ViewSplashscreen3Binding
 com/classicsmart/myhomegrocers/models/userAuth/LoginResponse.java
  com.classicsmart.myhomegrocers.models.userAuth.LoginResponse
+com/classicsmart/myhomegrocers/databinding/ActivityCartBinding.java
+ com.classicsmart.myhomegrocers.databinding.ActivityCartBinding
 com/classicsmart/myhomegrocers/databinding/ItemNewproductBinding.java
  com.classicsmart.myhomegrocers.databinding.ItemNewproductBinding
 com/classicsmart/myhomegrocers/models/LoginEmailPayLoad.java
@@ -172,10 +176,10 @@ com/classicsmart/myhomegrocers/activities/WelcomeActivity.java
  com.classicsmart.myhomegrocers.activities.WelcomeActivity$2
  com.classicsmart.myhomegrocers.activities.WelcomeActivity$3
  com.classicsmart.myhomegrocers.activities.WelcomeActivity$MyViewPagerAdapter
-com/classicsmart/myhomegrocers/presenters/ApiCallBack.java
- com.classicsmart.myhomegrocers.presenters.ApiCallBack
 com/classicsmart/myhomegrocers/activities/BaseActivity.java
  com.classicsmart.myhomegrocers.activities.BaseActivity
+com/classicsmart/myhomegrocers/presenters/ApiCallBack.java
+ com.classicsmart.myhomegrocers.presenters.ApiCallBack
 com/classicsmart/myhomegrocers/databinding/ActivityLoginFlowBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityLoginFlowBinding
 com/classicsmart/myhomegrocers/databinding/BottomBarBinding.java
@@ -233,11 +237,11 @@ com/classicsmart/myhomegrocers/presenters/CartPresenter.java
  com.classicsmart.myhomegrocers.presenters.CartPresenter$2
  com.classicsmart.myhomegrocers.presenters.CartPresenter$3
  com.classicsmart.myhomegrocers.presenters.CartPresenter$4
-com/classicsmart/myhomegrocers/utils/Prefs.java
- com.classicsmart.myhomegrocers.utils.Prefs
 com/classicsmart/myhomegrocers/adapters/MyOrdersAdapter.java
  com.classicsmart.myhomegrocers.adapters.MyOrdersAdapter
  com.classicsmart.myhomegrocers.adapters.MyOrdersAdapter$MyViewHolder
+com/classicsmart/myhomegrocers/utils/Prefs.java
+ com.classicsmart.myhomegrocers.utils.Prefs
 com/classicsmart/myhomegrocers/adapters/OfferAdapter.java
  com.classicsmart.myhomegrocers.adapters.OfferAdapter
  com.classicsmart.myhomegrocers.adapters.OfferAdapter$MyViewHolder
@@ -249,10 +253,10 @@ com/classicsmart/myhomegrocers/fragments/HomeFragment.java
  com.classicsmart.myhomegrocers.fragments.HomeFragment
 com/classicsmart/myhomegrocers/databinding/ViewVerifytestmailBinding.java
  com.classicsmart.myhomegrocers.databinding.ViewVerifytestmailBinding
-com/classicsmart/myhomegrocers/models/cart/Vouchers.java
- com.classicsmart.myhomegrocers.models.cart.Vouchers
 com/classicsmart/myhomegrocers/models/FeedBackPayload.java
  com.classicsmart.myhomegrocers.models.FeedBackPayload
+com/classicsmart/myhomegrocers/models/cart/Vouchers.java
+ com.classicsmart.myhomegrocers.models.cart.Vouchers
 com/classicsmart/myhomegrocers/databinding/ActivityDashboardBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityDashboardBinding
 com/classicsmart/myhomegrocers/network/ApiClient.java
@@ -267,14 +271,14 @@ com/classicsmart/myhomegrocers/fragments/SpecialOffersFragment.java
  com.classicsmart.myhomegrocers.fragments.SpecialOffersFragment
 com/classicsmart/myhomegrocers/models/cart/AddCartData.java
  com.classicsmart.myhomegrocers.models.cart.AddCartData
-com/classicsmart/myhomegrocers/models/dashboard/ProductOptionValue.java
- com.classicsmart.myhomegrocers.models.dashboard.ProductOptionValue
-com/classicsmart/myhomegrocers/activities/NotificationsActivity.java
- com.classicsmart.myhomegrocers.activities.NotificationsActivity
 com/classicsmart/myhomegrocers/activities/AddNewAddressActivity.java
  com.classicsmart.myhomegrocers.activities.AddNewAddressActivity
  com.classicsmart.myhomegrocers.activities.AddNewAddressActivity$1
  com.classicsmart.myhomegrocers.activities.AddNewAddressActivity$2
+com/classicsmart/myhomegrocers/models/dashboard/ProductOptionValue.java
+ com.classicsmart.myhomegrocers.models.dashboard.ProductOptionValue
+com/classicsmart/myhomegrocers/activities/NotificationsActivity.java
+ com.classicsmart.myhomegrocers.activities.NotificationsActivity
 com/classicsmart/myhomegrocers/adapters/CategoriesAdapter.java
  com.classicsmart.myhomegrocers.adapters.CategoriesAdapter
  com.classicsmart.myhomegrocers.adapters.CategoriesAdapter$MyViewHolder
@@ -282,14 +286,14 @@ com/classicsmart/myhomegrocers/databinding/ViewOtpVerificationBinding.java
  com.classicsmart.myhomegrocers.databinding.ViewOtpVerificationBinding
 com/classicsmart/myhomegrocers/models/account/ReferAndEarnData.java
  com.classicsmart.myhomegrocers.models.account.ReferAndEarnData
-com/classicsmart/myhomegrocers/models/cart/Product.java
- com.classicsmart.myhomegrocers.models.cart.Product
 com/classicsmart/myhomegrocers/models/myOrders/OrderDetailsResponse.java
  com.classicsmart.myhomegrocers.models.myOrders.OrderDetailsResponse
 com/classicsmart/myhomegrocers/models/userAuth/SignupData.java
  com.classicsmart.myhomegrocers.models.userAuth.SignupData
 com/classicsmart/myhomegrocers/models/address/AddAddressData.java
  com.classicsmart.myhomegrocers.models.address.AddAddressData
+com/classicsmart/myhomegrocers/models/cart/Product.java
+ com.classicsmart.myhomegrocers.models.cart.Product
 com/classicsmart/myhomegrocers/databinding/ActivityNotificationsBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityNotificationsBinding
 com/classicsmart/myhomegrocers/activities/DashBoardActivity.java
@@ -350,10 +354,10 @@ com/classicsmart/myhomegrocers/databinding/ViewOtpBinding.java
  com.classicsmart.myhomegrocers.databinding.ViewOtpBinding
 com/classicsmart/myhomegrocers/models/myOrders/OrderDetailsData.java
  com.classicsmart.myhomegrocers.models.myOrders.OrderDetailsData
-com/classicsmart/myhomegrocers/databinding/ActivitySignupBinding.java
- com.classicsmart.myhomegrocers.databinding.ActivitySignupBinding
 com/classicsmart/myhomegrocers/activities/CategoryWishlist2Activity.java
  com.classicsmart.myhomegrocers.activities.CategoryWishlist2Activity
+com/classicsmart/myhomegrocers/databinding/ActivitySignupBinding.java
+ com.classicsmart.myhomegrocers.databinding.ActivitySignupBinding
 com/classicsmart/myhomegrocers/databinding/ViewSliderBinding.java
  com.classicsmart.myhomegrocers.databinding.ViewSliderBinding
 com/classicsmart/myhomegrocers/databinding/ItemBookingidBinding.java
@@ -417,9 +421,9 @@ com/classicsmart/myhomegrocers/models/cart/UpdateCartResponse.java
  com.classicsmart.myhomegrocers.models.cart.UpdateCartResponse
 com/classicsmart/myhomegrocers/databinding/ActivityLoginotpBinding.java
  com.classicsmart.myhomegrocers.databinding.ActivityLoginotpBinding
-com/classicsmart/myhomegrocers/interfaces/DashboardApiCommunicator.java
- com.classicsmart.myhomegrocers.interfaces.DashboardApiCommunicator
 com/classicsmart/myhomegrocers/models/address/AddressResponse.java
  com.classicsmart.myhomegrocers.models.address.AddressResponse
+com/classicsmart/myhomegrocers/interfaces/DashboardApiCommunicator.java
+ com.classicsmart.myhomegrocers.interfaces.DashboardApiCommunicator
 com/classicsmart/myhomegrocers/models/address/Status.java
  com.classicsmart.myhomegrocers.models.address.Status

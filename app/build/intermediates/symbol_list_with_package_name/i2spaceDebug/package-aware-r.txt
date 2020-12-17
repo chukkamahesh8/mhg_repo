@@ -2446,6 +2446,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable error
+drawable fill_circle
 drawable fill_rounded
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
@@ -2539,6 +2540,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable orange_rectangle_box
 drawable oval
 drawable oval_peach
 drawable oval_profile
@@ -2550,6 +2552,7 @@ drawable rounded_border
 drawable segment_layout_bg
 drawable selected_button_state
 drawable selected_button_transparent
+drawable slimrounded
 drawable tab_indicator_default
 drawable tab_indicator_selected
 drawable tab_selector
@@ -2936,6 +2939,7 @@ id ll_previously_orderd
 id ll_profile
 id ll_special_offers
 id ll_title
+id ll_top
 id ll_viewLogin
 id ll_viewSignupOtp
 id ll_viewloginotp
@@ -3043,6 +3047,7 @@ id right
 id right_icon
 id right_side
 id rlMain
+id rl_bottom
 id rl_forgotscreen
 id rl_otppassword
 id rl_panel
@@ -3170,8 +3175,10 @@ id tv_Location
 id tv_Login
 id tv_Loginviaotp
 id tv_Notification
+id tv_cart
 id tv_cat_title
 id tv_changepassword
+id tv_checkout
 id tv_deliveryavailability
 id tv_empty
 id tv_explore
@@ -3181,8 +3188,10 @@ id tv_logout
 id tv_pb
 id tv_pleaseupdatetocontinue
 id tv_plus
+id tv_pricedetails
 id tv_productcount
 id tv_productname
+id tv_total_cart_price
 id tv_updateprofile
 id tv_verification_title
 id tvcount
@@ -3324,6 +3333,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_add_newaddress
+layout activity_cart
 layout activity_category_wishlist2
 layout activity_change__password
 layout activity_dashboard
