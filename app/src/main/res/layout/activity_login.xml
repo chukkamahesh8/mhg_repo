@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_15sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_app_logo" />
+
+            <TextView
+                android:id="@+id/tv_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_toLeftOf="@id/txtSignup"
+                android:fontFamily="@font/poppins_bold"
+                android:includeFontPadding="false"
+                android:onClick="txtLoginClick"
+                android:text="@string/mTv_Login"
+                android:textColor="@color/bright_orange"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/underlineView"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/tv_Login"
+                android:layout_alignStart="@+id/tv_Login"
+                android:layout_alignLeft="@+id/tv_Login"
+                android:layout_alignEnd="@+id/tv_Login"
+                android:layout_alignRight="@+id/tv_Login"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/bright_orange" />
+
+
+            <TextView
+                android:id="@+id/txtSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:onClick="txtSignUp"
+                android:text="@string/mTv_Signup"
+                android:textColor="@color/bright_orange_0.8"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/underlineViewSignup"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/txtSignup"
+                android:layout_alignStart="@+id/txtSignup"
+                android:layout_alignLeft="@+id/txtSignup"
+                android:layout_alignEnd="@+id/txtSignup"
+                android:layout_alignRight="@+id/txtSignup"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:background="@color/bright_orange"
+                android:visibility="gone" />
+
+
+        </RelativeLayout>
+
+        <!--View starts here-->
+        <androidx.core.widget.NestedScrollView
+            android:id="@+id/loginscroll"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorWhite">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/ll_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/mTv_Welcomeback"
+                        android:textColor="@color/colordarkgray"
+                        android:textSize="@dimen/Title" />
+
+                    <TextView
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_2sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/mTv_LoginToContinue"
+                        android:textColor="@color/colorgray"
+                        android:textSize="@dimen/tv_description" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_card_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/_20sdp"
+                    android:background="@drawable/cardview"
+                    android:orientation="vertical"
+                    app:cardCornerRadius="@dimen/_18sdp">
+
+                    <LinearLayout
+                        android:id="@+id/ll_viewLogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:visibility="visible">
+
+                        <include
+                            android:id="@+id/viewLogin"
+                            layout="@layout/activity_login_flow"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_viewpassword"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:visibility="gone">
+
+                        <include
+                            android:id="@+id/viewpassword"
+                            layout="@layout/view_password"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_viewloginotp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <include
+                            android:id="@+id/viewloginotp"
+                            layout="@layout/activity_loginotp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_viewSignupOtp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:visibility="gone">
+
+                        <include
+                            android:id="@+id/viewSignupOtp"
+                            layout="@layout/activity_loginotp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+
+        <LinearLayout
+            android:id="@+id/ll_viewsignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/viewSignup"
+                layout="@layout/activity_signup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_Change_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <include
+                android:id="@+id/viewChangePassword"
+                layout="@layout/item_change_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</layout>

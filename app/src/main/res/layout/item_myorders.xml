@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_5sdp"
+    android:elevation="@dimen/_30sdp"
+    android:outlineAmbientShadowColor="@color/bright_orange_0.16"
+    app:cardCornerRadius="@dimen/_20sdp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
+        android:layout_marginVertical="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txt_orderid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:text="Order ID:#12345"
+                    android:textColor="@color/colorwarm_grey"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_order_status"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="@font/poppins_bold"
+                    android:text="Processing"
+                    android:textColor="@color/bright_orange"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:id="@+id/txt_total_price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Order Total :$22.95"
+                    android:textColor="@color/colorwarm_grey"
+                    android:textSize="10sp" />
+
+                <TextView
+                    android:id="@+id/txt_date_of_delivery"
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="Delivery Date : 05/26/2020"
+                    android:textColor="@color/colorwarm_grey"
+                    android:textSize="10sp" />
+
+                <Button
+                    android:id="@+id/btn_cancelorder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:layout_gravity="start"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:background="@drawable/plain_rounded_border"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:outlineSpotShadowColor="@color/bright_orange_0.16"
+                    android:text="CANCEL ORDER"
+                    android:textAllCaps="false"
+                    android:textColor="@color/bright_orange"
+                    android:textSize="15sp"
+                    android:visibility="gone" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/im_order_status"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+
+                android:src="@drawable/ic_delivered" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_reorder"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:backgroundTint="@color/bright_orange"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="Reorder"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:textSize="15sp" />
+
+            <View
+                android:layout_width="40dp"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/txt_rate_order"
+                android:layout_width="138dp"
+                android:layout_height="50dp"
+                android:layout_gravity="end"
+                android:layout_weight="1"
+                android:background="@drawable/rounded_border"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="Rate Your Order"
+                android:textColor="@color/bright_orange"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

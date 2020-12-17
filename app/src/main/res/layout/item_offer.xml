@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+
+    </data>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:background="@color/colorWhite"
+    android:layout_marginHorizontal="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Title"
+       android:id="@+id/offertitle"
+       android:textSize="15sp"
+       android:textColor="@color/colorBlack"
+        android:layout_marginLeft="@dimen/_10sdp"
+       android:fontFamily="@font/poppins_semibold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/offerDescription"
+        android:textSize="15sp"
+        android:text="Description"
+        android:textColor="@color/colorwarm_grey"
+        android:layout_marginLeft="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_regular"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/offertime"
+        android:textSize="10sp"
+        android:text="time"
+        android:layout_gravity="end"
+        android:gravity="end"
+        android:textColor="@color/color_greyish_brown_two_16"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginHorizontal="@dimen/_10sdp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorwarm_grey"/>
+
+</LinearLayout>
+</layout>
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Title">26sp</dimen>
+    <dimen name="ForgotTitle">26sp</dimen>
+    <dimen name="Logintextsize">15sp</dimen>
+    <dimen name="btn_login">25sp</dimen>
+    <dimen name="cb_description">12sp</dimen>
+    <dimen name="right_description">20sp</dimen>
+    <dimen name="Change_Email">13sp</dimen>
+    <dimen name="tv_Forgot_Password">15sp</dimen>
+    <dimen name="tv_description">15sp</dimen>
+    <dimen name="Resend_otp">15sp</dimen>
+    <dimen name="dots_height">40dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+    <dimen name="card_shadow">1dp</dimen>
+    <dimen name="bottom_icon">@dimen/_35sdp</dimen>
+    <dimen name="spacing_xsmall">@dimen/_2sdp</dimen>
+    <dimen name="spacing_small">@dimen/_4sdp</dimen>
+    <dimen name="spacing_6dp">@dimen/_6sdp</dimen>
+    <dimen name="spacing_medium">@dimen/_8sdp</dimen>
+    <dimen name="spacing_large">@dimen/_12sdp</dimen>
+    <dimen name="spacing_xmlarge">@dimen/_16sdp</dimen>
+    <dimen name="spacing_xlarge">@dimen/_40sdp</dimen>
+    <dimen name="holds_height">@dimen/_50sdp</dimen>
+    <dimen name="img_height">@dimen/_60sdp</dimen>
+    <dimen name="spacing_mlarge">@dimen/_30sdp</dimen>
+    <dimen name="slider_height">@dimen/_135sdp</dimen>
+
+</resources>

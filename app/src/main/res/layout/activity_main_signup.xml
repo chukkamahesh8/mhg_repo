@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_top"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="@dimen/_15sdp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_60sdp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_app_logo" />
+
+            <TextView
+                android:id="@+id/tv_Login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_toLeftOf="@id/txtSignup"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_medium"
+                android:includeFontPadding="false"
+                android:onClick="signupLogin"
+                android:text="@string/mTv_Login"
+                android:textColor="@color/bright_orange_0.8"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/underlineView"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/tv_Login"
+                android:layout_alignStart="@+id/tv_Login"
+                android:layout_alignLeft="@+id/tv_Login"
+                android:layout_alignEnd="@+id/tv_Login"
+                android:layout_alignRight="@+id/tv_Login"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@color/bright_orange"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/txtSignup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_bold"
+                android:includeFontPadding="false"
+                android:text="@string/mTv_Signup"
+                android:textColor="@color/bright_orange"
+                android:textSize="20sp" />
+
+            <View
+                android:id="@+id/underlineViewSignup"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                android:layout_below="@+id/txtSignup"
+                android:layout_alignStart="@+id/txtSignup"
+                android:layout_alignLeft="@+id/txtSignup"
+                android:layout_alignEnd="@+id/txtSignup"
+                android:layout_alignRight="@+id/txtSignup"
+                android:layout_marginTop="@dimen/_22sdp"
+                android:background="@color/bright_orange" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/llSignupp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="visible">
+
+                <LinearLayout
+                    android:id="@+id/ll_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/view_shade"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_25sdp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="@string/mTv_Heygetonboard"
+                        android:textColor="@color/colordarkgray"
+                        android:textSize="@dimen/Title" />
+
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/view_shade"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:layout_above="@+id/card_view2"
+                    android:layout_marginBottom="-65dp"
+                    android:background="@drawable/gradient"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/card_view2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:background="@drawable/cardview"
+                    android:gravity="bottom"
+                    android:orientation="vertical"
+                    android:visibility="visible">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_25sdp"
+                        android:orientation="horizontal">
+
+                        <EditText
+                            android:id="@+id/ed_FirstName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/colorOrange"
+                            android:fontFamily="@font/poppins_medium"
+                            android:hint="@string/med_FirstName"
+                            android:imeOptions="actionNext"
+                            android:includeFontPadding="false"
+                            android:inputType="text"
+                            android:textColor="@color/colorgray"
+                            android:textSize="@dimen/Logintextsize" />
+
+                        <EditText
+                            android:id="@+id/ed_LastName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:backgroundTint="@color/colorOrange"
+                            android:fontFamily="@font/poppins_medium"
+                            android:hint="@string/med_HintLastName"
+                            android:imeOptions="actionNext"
+                            android:includeFontPadding="false"
+                            android:inputType="text"
+                            android:textColor="@color/colorgray"
+                            android:textSize="@dimen/Logintextsize" />
+
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/ed_MobileNumber"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/_15sdp"
+                        android:backgroundTint="@color/colorOrange"
+                        android:fontFamily="@font/poppins_medium"
+                        android:hint="@string/med_MobileNumber"
+                        android:imeOptions="actionNext"
+                        android:includeFontPadding="false"
+                        android:inputType="phone"
+                        android:maxLength="10"
+                        android:textColor="@color/colorgray"
+                        android:textSize="@dimen/Logintextsize" />
+
+                    <EditText
+                        android:id="@+id/ed_EmailId"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:backgroundTint="@color/colorOrange"
+                        android:fontFamily="@font/poppins_medium"
+                        android:hint="Email ID"
+                        android:imeOptions="actionNext"
+                        android:includeFontPadding="false"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/colorgray"
+                        android:textSize="@dimen/Logintextsize" />
+
+
+                    <EditText
+                        android:id="@+id/ed_password"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_40sdp"
+                        android:layout_margin="@dimen/_15sdp"
+                        android:backgroundTint="@color/colorOrange"
+                        android:fontFamily="@font/poppins_medium"
+                        android:hint="@string/med_hintpassword"
+                        android:imeOptions="actionNext"
+                        android:includeFontPadding="false"
+                        android:inputType="textPassword"
+                        android:textColor="@color/colorgray"
+                        android:textSize="@dimen/Logintextsize" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:orientation="horizontal">
+
+                        <CheckBox
+                            android:id="@+id/cb_accept_terms"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/bright_orange"
+                            android:fontFamily="@font/poppins_medium"
+                            android:textColor="@color/colorgray"
+                            android:textSize="@dimen/Logintextsize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/poppins_medium"
+                            android:text="By selecting you l'll be accepting Terms and Conditions"
+                            android:textColor="@color/colorgray"
+                            android:textSize="15sp" />
+
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btn_Signup"
+                        android:layout_width="179dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="@dimen/_20sdp"
+                        android:layout_marginBottom="@dimen/_15sdp"
+                        android:background="@drawable/rounded_border"
+                        android:backgroundTint="@color/bright_orange"
+                        android:clickable="true"
+                        android:fontFamily="@font/poppins_medium"
+                        android:gravity="center"
+                        android:includeFontPadding="false"
+                        android:onClick="btnsignup"
+                        android:text="@string/mbtn_Signup"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffff"
+                        android:textSize="@dimen/btn_login" />
+
+                </LinearLayout>
+            </RelativeLayout>
+<!---->
+            <LinearLayout
+                android:id="@+id/ll_viewsignupotpVerfication"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content">
+
+                <include
+                    android:id="@+id/signup_verifymobileno"
+                    layout="@layout/view_verify_mobileno"
+                    />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</layout>

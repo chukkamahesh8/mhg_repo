@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/ll_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text= "@string/mTv_WelcomeBack"
+                android:textColor="@color/colordarkgray"
+                android:textSize="@dimen/Title" />
+
+            <TextView
+                android:id="@+id/description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_medium"
+                android:text="@string/mTv_LoginToContinue"
+                android:textColor="@color/colorgray"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="@dimen/tv_description" />
+
+        </LinearLayout>
+
+        <View
+            android:id="@+id/view_shade"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_above="@+id/card_view2"
+            android:layout_marginBottom="-55dp"
+            android:background="@drawable/gradient"/>
+        <LinearLayout
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/cardview"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+
+        <TextView
+                android:id="@+id/tvskip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:fontFamily="@font/poppins_semibold"
+                android:gravity="end"
+                android:text=">> SKIP"
+                android:textColor="@color/bright_orange"
+                android:textSize="@dimen/Logintextsize" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/edtxtEmailId"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_40sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:backgroundTint="@color/colorOrange"
+                android:clickable="true"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/med_HintEmailId"
+                android:imeOptions="actionDone"
+                android:inputType="textEmailAddress"
+                android:text=""
+                android:textColor="@color/colorgray"
+                android:textSize="@dimen/Logintextsize"
+                android:includeFontPadding="false"
+               android:layout_marginHorizontal="@dimen/_24sdp" />
+
+                <ImageView
+                    android:id="@+id/frwarrow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginHorizontal="@dimen/_25sdp"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:layout_marginRight="32dp"
+                    android:backgroundTint="@color/bright_orange"
+                    android:clickable="true"
+                    android:onClick="forwardArrow"
+                    android:src="@drawable/ic_forward_arrow" />
+
+
+            </RelativeLayout>
+
+
+
+            <include layout="@layout/view_otp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone"/>
+
+<!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginHorizontal="@dimen/_24sdp"
+                android:layout_marginTop="@dimen/_10sdp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/poppins_medium"
+                    android:text="@string/mtv_ConnectUsing"
+                    android:textColor="@color/black_two"
+                    android:textSize="@dimen/Logintextsize" />
+
+
+                <ImageView
+                    android:id="@+id/img_google"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/ic_google_login" />
+
+                <ImageView
+                    android:id="@+id/img_fb"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:src="@drawable/ic_facebook_login" />
+
+
+            </LinearLayout>
+-->
+
+
+            <TextView
+                android:id="@+id/Termsofservices"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:fontFamily="@font/poppins_regular"
+                android:layout_marginBottom="@dimen/_25sdp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="@string/mtv_Terms_and_services"
+                android:textColor="@color/colorlightblack"
+                android:textSize="@dimen/cb_description"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</layout>

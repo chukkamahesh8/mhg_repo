@@ -1,0 +1,544 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+MERGED from [androidx.databinding:databinding-adapters:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/be8ad2bdf1de8bca761efeb4bf41cde3/databinding-adapters-4.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b9ac6212e6280aea0764d8f21d1ab8ca/databinding-runtime-4.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:viewbinding:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/09ae6e586dd73e28e1950bfd196510ef/jetified-viewbinding-4.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.2.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.0.2] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/07d6a778050392dfc8daf2a0a7913d6c/jetified-ImageSlideshow-0.0.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.android:facebook-login:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/AndroidManifest.xml:21:1-31:12
+MERGED from [androidx.preference:preference:1.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3c7345978b86f8a5e1fb5ed081ddf744/preference-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:21:1-52:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a527ad4f532df6b258c428a911debd89/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cec5c11a474cda8c949eefeba4fb6d2e/lifecycle-extensions-2.2.0/AndroidManifest.xml:17:1-27:12
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18bcc8d9dd1e828542511c5d0b00c977/jetified-sdp-android-1.0.6/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:17:1-40:12
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/61a6569695b9cfbe82cef1551cd2b0aa/jetified-glide-4.11.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b5e85f9c2c43d340fa8412ee09ce1909/browser-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/045ecda214dc48a7b6794acabc444ee0/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e4bba211afcc33dbb8615ae0cfbb1b38/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d33ef9ce5c9613313e1a6f1ff75331ef/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e0a3fbecd9c81f60ec630e8111940c56/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c142ab5d489711f09b84f24052fa0aaf/fragment-1.2.4/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:21:1-53:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5da34eb97c9a981e57dda15c1428203/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:17:1-32:12
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e92e11e00a9a3f5633cf243e6ee1b0be/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/221802478e72bb4be4f908a2b8523bb4/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8776d36c0f0371a35de6bba08ef15072/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:2:1-14:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d003e11e67b2190dfb365847e2ce9408/jetified-gifdecoder-4.11.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3b647a788fbc8cfd5292f518497e5552/exifinterface-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:2:1-13:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+	package
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:1-89:12
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:5:5-78:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.android:facebook-login:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-login:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/AndroidManifest.xml:28:5-29:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:29:5-50:19
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:29:5-50:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cec5c11a474cda8c949eefeba4fb6d2e/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cec5c11a474cda8c949eefeba4fb6d2e/lifecycle-extensions-2.2.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:22:5-38:19
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/61a6569695b9cfbe82cef1551cd2b0aa/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/61a6569695b9cfbe82cef1551cd2b0aa/jetified-glide-4.11.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e0a3fbecd9c81f60ec630e8111940c56/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e0a3fbecd9c81f60ec630e8111940c56/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:22:5-26:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:28:5-51:19
+MERGED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:28:5-51:19
+MERGED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:24:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:24:5-30:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:7:5-12:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d003e11e67b2190dfb365847e2ce9408/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d003e11e67b2190dfb365847e2ce9408/jetified-gifdecoder-4.11.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:24:5-25:19
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:11:9-35
+	android:label
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:9:9-41
+	android:roundIcon
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:10:9-54
+	android:icon
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:7:9-35
+	android:theme
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:12:9-40
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:6:9-28
+activity#com.classicsmart.myhomegrocers.activities.WelcomeActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:14:9-16:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:16:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:15:13-55
+activity#com.classicsmart.myhomegrocers.activities.SignupActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:17:9-19:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:19:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:18:13-54
+activity#com.classicsmart.myhomegrocers.activities.CategoryWishlist2Activity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:21:13-65
+activity#com.classicsmart.myhomegrocers.activities.NotificationsActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:24:13-61
+activity#com.classicsmart.myhomegrocers.activities.SplashScreenActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:26:9-35:20
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:28:13-49
+	android:theme
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:27:13-60
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:30:13-34:29
+action#android.intent.action.MAIN
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:31:17-69
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:31:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:33:17-77
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:33:27-74
+activity#com.classicsmart.myhomegrocers.activities.HomeActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:36:9-38:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:38:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:37:13-52
+activity#com.classicsmart.myhomegrocers.activities.DeliveryAddressActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:39:9-41:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:41:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:40:13-63
+activity#com.classicsmart.myhomegrocers.activities.AddNewAddressActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:42:9-44:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:44:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:43:13-61
+activity#com.classicsmart.myhomegrocers.activities.UpdateProfileActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:45:9-47:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:47:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:46:13-61
+activity#com.classicsmart.myhomegrocers.activities.ChangePasswordActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:48:9-50:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:50:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:49:13-62
+activity#com.classicsmart.myhomegrocers.activities.LoginActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:51:9-54:59
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:53:13-49
+	android:theme
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:54:13-56
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:52:13-53
+activity#com.classicsmart.myhomegrocers.activities.ForgotPasswordActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:55:9-58:59
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:57:13-49
+	android:theme
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:58:13-56
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:56:13-62
+activity#com.classicsmart.myhomegrocers.activities.DashBoardActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:59:9-62:59
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:61:13-49
+	android:theme
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:62:13-56
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:60:13-57
+activity#com.classicsmart.myhomegrocers.activities.RighttopNavigationActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:63:9-65:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:64:13-66
+activity#com.classicsmart.myhomegrocers.activities.MyOrdersActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:66:9-68:52
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:68:13-49
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:67:13-56
+activity#com.facebook.FacebookActivity
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:69:9-73:52
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:30:9-33:66
+	android:screenOrientation
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:73:13-49
+	android:label
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:72:13-45
+	android:configChanges
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:71:13-96
+	android:theme
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:33:13-63
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:70:13-57
+meta-data#com.facebook.sdk.ApplicationId
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:75:9-77:55
+	android:value
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:77:13-52
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:76:13-58
+uses-permission#android.permission.CAMERA
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:80:5-65
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:80:22-62
+uses-permission#android.permission.FLASHLIGHT
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:81:5-69
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:81:22-66
+uses-permission#android.permission.INTERNET
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:82:5-67
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:82:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:83:5-81
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:83:22-78
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:84:5-69
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:84:22-66
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:85:5-76
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:85:22-73
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:87:5-79
+	android:name
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml:87:22-76
+uses-sdk
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/be8ad2bdf1de8bca761efeb4bf41cde3/databinding-adapters-4.1.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/be8ad2bdf1de8bca761efeb4bf41cde3/databinding-adapters-4.1.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b9ac6212e6280aea0764d8f21d1ab8ca/databinding-runtime-4.1.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b9ac6212e6280aea0764d8f21d1ab8ca/databinding-runtime-4.1.0/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/09ae6e586dd73e28e1950bfd196510ef/jetified-viewbinding-4.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.databinding:viewbinding:4.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/09ae6e586dd73e28e1950bfd196510ef/jetified-viewbinding-4.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ec4dd897d4037390d3cac18fc3984d5c/constraintlayout-2.0.4/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.2.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.0.2] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/07d6a778050392dfc8daf2a0a7913d6c/jetified-ImageSlideshow-0.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.denzcoskun:ImageSlideshow:0.0.2] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/07d6a778050392dfc8daf2a0a7913d6c/jetified-ImageSlideshow-0.0.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-login:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3c7345978b86f8a5e1fb5ed081ddf744/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.preference:preference:1.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3c7345978b86f8a5e1fb5ed081ddf744/preference-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:25:5-27:41
+MERGED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:25:5-27:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a527ad4f532df6b258c428a911debd89/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a527ad4f532df6b258c428a911debd89/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cec5c11a474cda8c949eefeba4fb6d2e/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cec5c11a474cda8c949eefeba4fb6d2e/lifecycle-extensions-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18bcc8d9dd1e828542511c5d0b00c977/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [com.intuit.sdp:sdp-android:1.0.6] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18bcc8d9dd1e828542511c5d0b00c977/jetified-sdp-android-1.0.6/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ef9c997edfa62b91e0d370b598210169/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d889d0bca3861f2da10545da7c4132e/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/28b4aa78b7d7c16150815353e8235a9e/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/61a6569695b9cfbe82cef1551cd2b0aa/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/61a6569695b9cfbe82cef1551cd2b0aa/jetified-glide-4.11.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0ccf7d1f41f08a9fbac49eb844da8039/legacy-support-v4-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b5e85f9c2c43d340fa8412ee09ce1909/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b5e85f9c2c43d340fa8412ee09ce1909/browser-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9d4053b57d170770335ff225b77d62ba/legacy-support-core-ui-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/85bbcabe709b3efb54d74d18f7977a81/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/045ecda214dc48a7b6794acabc444ee0/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/045ecda214dc48a7b6794acabc444ee0/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/142e93d95da0344235eb82ee7f05a108/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/0d4494bee4a56a30051f107c7a8e3c94/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/04d9fa679ff5e7b592ee980c8b38c907/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/715ac09ebebe6f055fd8c27935b09c71/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/24a7c4b656e8849fce6b1ec879de45c1/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e4bba211afcc33dbb8615ae0cfbb1b38/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e4bba211afcc33dbb8615ae0cfbb1b38/jetified-play-services-auth-api-phone-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d33ef9ce5c9613313e1a6f1ff75331ef/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d33ef9ce5c9613313e1a6f1ff75331ef/jetified-play-services-auth-base-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e0a3fbecd9c81f60ec630e8111940c56/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e0a3fbecd9c81f60ec630e8111940c56/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c142ab5d489711f09b84f24052fa0aaf/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c142ab5d489711f09b84f24052fa0aaf/fragment-1.2.4/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:24:5-26:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bdfbb38555a741f74d62c90cf85e0b35/legacy-support-core-utils-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/a8f36a69659c55a007f35cfecb9dcfc6/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b437c8e4cf053fd87bc8836cb75ffd62/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/30364a4e1d148d54a282aaa580ec2e4d/slidingpanelayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/dcd86c4e1bc7b82faa13cfa95eb5ce30/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5da34eb97c9a981e57dda15c1428203/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5da34eb97c9a981e57dda15c1428203/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/b92201a39ca35c5371c82710bc662dc7/media-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d38c28a7a4bd66deb92fbaacca82413e/swiperefreshlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/18aae0e1403cb9536d945989108c14a5/asynclayoutinflater-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/ff37b710ecf84191a2687617c776753e/core-1.3.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e92e11e00a9a3f5633cf243e6ee1b0be/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-service:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/e92e11e00a9a3f5633cf243e6ee1b0be/jetified-lifecycle-service-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/221802478e72bb4be4f908a2b8523bb4/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/221802478e72bb4be4f908a2b8523bb4/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/c8a3c870cf440969a745e39a0f172f57/lifecycle-livedata-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8776d36c0f0371a35de6bba08ef15072/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8776d36c0f0371a35de6bba08ef15072/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/cccd3c0e33aa3a9a75544149af27bd44/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/5344f376b9f142648746b3ae893fe6dc/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/335a1a6eb49eac2eab041286c81584a5/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8d35f6fcc8a91cc112bd1768b2db9cf2/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:5:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d003e11e67b2190dfb365847e2ce9408/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.11.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d003e11e67b2190dfb365847e2ce9408/jetified-gifdecoder-4.11.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3b647a788fbc8cfd5292f518497e5552/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.exifinterface:exifinterface:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3b647a788fbc8cfd5292f518497e5552/exifinterface-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/94115104efb23786ea53cd1a51dde3af/versionedparcelable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/884715ee5d4759e99f0bf4b3058e7279/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/9b14025540e1c0e0278fee415366684e/documentfile-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/3e9337dfc055970a9422bc379c54bdcb/localbroadcastmanager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/48eb1e8d8b8ad7006b2f3cf24b65d608/print-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/01339aeadc2379d14234ec1725fb1d1d/jetified-annotation-experimental-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		ADDED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/AndroidManifest.xml
+activity#com.facebook.CustomTabMainActivity
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:9-71
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:34:19-68
+activity#com.facebook.CustomTabActivity
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:35:9-49:20
+	tools:node
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:38:13-31
+	android:exported
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:37:13-36
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:36:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.${applicationId}+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:cct.com.classicsmart.myhomegrocers+data:scheme:fbconnect
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:39:13-48:29
+action#android.intent.action.VIEW
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:17-69
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:40:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:17-76
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:42:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:17-78
+	android:name
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:43:27-75
+data
+ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:45:17-47:50
+	android:host
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:46:21-56
+	android:scheme
+		ADDED from [com.facebook.android:facebook-common:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/fc4a87690c5e067a585fee40c910e6ba/jetified-facebook-common-5.15.3/AndroidManifest.xml:47:21-47
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:18.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/bd361368d1c5d15ee6a9dde8a6e8a42f/jetified-play-services-auth-18.1.0/AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.1.1] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/8ff4f824e048b970b33987b5291575d3/jetified-play-services-basement-17.1.1/AndroidManifest.xml:24:13-58
+provider#com.facebook.internal.FacebookInitProvider
+ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:39:9-42:40
+	android:authorities
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:41:13-72
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:42:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:40:13-70
+receiver#com.facebook.CurrentAccessTokenExpirationBroadcastReceiver
+ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:44:9-50:20
+	android:exported
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:46:13-37
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:45:13-86
+intent-filter#action:name:com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:47:13-49:29
+action#com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED
+ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:17-95
+	android:name
+		ADDED from [com.facebook.android:facebook-core:5.15.3] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/6d718f939fdb8ee2c2e2e550e49f0230/jetified-facebook-core-5.15.3/AndroidManifest.xml:48:25-92
+provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:25:9-29:43
+	android:authorities
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:27:13-69
+	android:multiprocess
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:29:13-40
+	android:exported
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:28:13-37
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.2.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/d5906b530ddf7ea2d590e933f9f3c829/jetified-lifecycle-process-2.2.0/AndroidManifest.xml:26:13-79
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/da0395d049bdafa67234c1ebc493dd60/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:9:5-110
+	android:name
+		ADDED from [com.android.installreferrer:installreferrer:1.0] /Users/mahesh/.gradle/caches/transforms-2/files-2.1/59892400abe21b8d7586201cba27e31f/jetified-installreferrer-1.0/AndroidManifest.xml:9:22-107

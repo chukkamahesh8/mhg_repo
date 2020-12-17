@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_above="@+id/view_shade"
+        android:id="@+id/ll_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_medium"
+            android:text= "@string/mTv_Heygetonboard"
+            android:textColor="@color/colordarkgray"
+            android:textSize="@dimen/Title" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_2sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:text="@string/mtv_Signuptocontinue"
+            android:textColor="@color/colorgray"
+            android:textSize="@dimen/tv_description" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_shade"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_above="@+id/card_view2"
+        android:layout_marginBottom="-65dp"
+        android:visibility="visible"
+        android:background="@drawable/gradient"/>
+    <LinearLayout
+        android:id="@+id/card_view2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/cardview"
+        android:gravity="bottom"
+        android:visibility="visible"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp">
+
+            <EditText
+                android:id="@+id/ed_FirstName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorOrange"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/med_FirstName"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/colorgray"
+                android:textSize="@dimen/Logintextsize"
+                android:includeFontPadding="false"/>
+
+            <EditText
+                android:id="@+id/ed_LastName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:backgroundTint="@color/colorOrange"
+                android:fontFamily="@font/poppins_medium"
+                android:hint="@string/med_HintLastName"
+                android:imeOptions="actionNext"
+                android:inputType="text"
+                android:textColor="@color/colorgray"
+                android:textSize="@dimen/Logintextsize"
+                android:includeFontPadding="false"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/ed_MobileNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/med_MobileNumber"
+            android:imeOptions="actionNext"
+            android:maxLength="10"
+            android:inputType="phone"
+            android:textColor="@color/colorgray"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/Logintextsize" />
+        <EditText
+            android:id="@+id/ed_EmailId"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="Email ID"
+            android:imeOptions="actionNext"
+            android:includeFontPadding="false"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorgray"
+            android:textSize="@dimen/Logintextsize" />
+
+
+        <EditText
+            android:id="@+id/ed_password"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/med_hintpassword"
+            android:imeOptions="actionNext"
+            android:inputType="textPassword"
+            android:textColor="@color/colorgray"
+            android:includeFontPadding="false"
+            android:textSize="@dimen/Logintextsize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp">
+            <CheckBox
+                android:id="@+id/cb_accept_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/Logintextsize"
+                android:textColor="@color/colorgray"
+                android:buttonTint="@color/bright_orange"
+                android:fontFamily="@font/poppins_medium"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="By selecting you l'll be accepting Terms and Conditions"
+                android:textSize="15sp"
+                android:fontFamily="@font/poppins_medium"
+                android:textColor="@color/colorgray"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_Signup"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/bright_orange"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:onClick="btnsignup"
+            android:clickable="true"
+            android:text="@string/mbtn_Signup"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/btn_login"
+            android:includeFontPadding="false"/>
+
+
+    </LinearLayout>
+
+        <include
+            android:id="@+id/signup_verifymobileno"
+            layout="@layout/view_verify_mobileno"
+            android:visibility="gone"/>
+
+</RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+
+</layout>

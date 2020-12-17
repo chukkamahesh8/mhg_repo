@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff5c01</color>
+    <color name="colorPrimaryDark">#ff5c01</color>
+    <color name="colorPrimaryRipple">#ff5c01</color>
+    <color name="colorAccent">#ff5c01</color>
+
+    <color name="colorOrange">#ff5c01</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colordarkgray">#393939</color>
+    <color name="colorgray">#737373</color>
+    <color name="colorlightpink">#4dffe0cf</color>
+    <color name="colorlightblack">#090909</color>
+    <color name="color_verylightpink">#fff4ee</color>
+    <color name="colorgray1">#707070</color>
+    <color name="colorview">#b7b7b7</color>
+    <color name="colorlight_peach">#ffe0cf</color>
+    <color name="colorlight_peach30">#4dffe0cf</color>
+    <color name="colorwarm_grey">#707070</color>
+    <color name="colorgreyish_brown">#464646</color>
+    <color name="colorgreyish_brown_two">#515151</color>
+    <color name="transparent">@android:color/transparent</color>
+    <color name="colorblack_68">#cc000000</color>
+    <color name="bright_orange">#ff5c01</color>
+    <color name="black_two">#1e1e1e</color>
+    <color name="bright_orange_0.4">#66ff5c01</color>
+    <color name="bright_orange_0.8">#ccff5c01</color>
+    <color name="bright_orange_0.16">#29ff5c01</color>
+    <color name="color_greyish_brown_two_16">#515151</color>
+    <color name="brownish_grey">#6b6969</color>
+    <color name="bright_orange_0.55">#8cff5c01</color>
+
+    <array name="array_dot_active">
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+        <item>@color/colorAccent</item>
+    </array>
+
+    <array name="array_dot_inactive">
+        <item>@color/colorwarm_grey</item>
+        <item>@color/colorwarm_grey</item>
+        <item>@color/colorwarm_grey</item>
+        <item>@color/colorwarm_grey</item>
+    </array>
+
+
+</resources>

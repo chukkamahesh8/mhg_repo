@@ -1,0 +1,10 @@
+#Thu Dec 17 00:20:00 IST 2020
+path.2=classes2.dex
+path.1=classes.dex
+path.0=classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.2=/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/dex/i2spaceDebug/mergeExtDexI2spaceDebug/classes2.dex
+base.1=/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/dex/i2spaceDebug/mergeProjectDexI2spaceDebug/classes.dex
+base.0=/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/dex/i2spaceDebug/mergeExtDexI2spaceDebug/classes.dex
