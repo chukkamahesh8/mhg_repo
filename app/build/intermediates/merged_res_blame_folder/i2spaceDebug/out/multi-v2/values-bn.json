@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-bn/values-bn.xml",
+            "outputFile": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-bn/values-bn.xml",
             "map": [
                 {
                     "source": "/Users/mahesh/.gradle/caches/transforms-2/files-2.1/3c7345978b86f8a5e1fb5ed081ddf744/preference-1.1.1/res/values-bn/values-bn.xml",

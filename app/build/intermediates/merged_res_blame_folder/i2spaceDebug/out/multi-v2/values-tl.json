@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-tl/values-tl.xml",
+            "outputFile": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-tl/values-tl.xml",
             "map": [
                 {
                     "source": "/Users/mahesh/.gradle/caches/transforms-2/files-2.1/8460c17c1f878ab88a902a1443664175/jetified-play-services-base-17.1.0/res/values-tl/values.xml",

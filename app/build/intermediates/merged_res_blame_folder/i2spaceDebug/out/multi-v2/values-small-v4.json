@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
+            "outputFile": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-small-v4/values-small-v4.xml",
             "map": [
                 {
                     "source": "/Users/mahesh/.gradle/caches/transforms-2/files-2.1/b988cdf40af7cdf3e0317011f8e5bfe7/material-1.2.1/res/values-small-v4/values-small-v4.xml",

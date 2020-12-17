@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-mr/values-mr.xml",
+            "outputFile": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/merged.dir/values-mr/values-mr.xml",
             "map": [
                 {
                     "source": "/Users/mahesh/.gradle/caches/transforms-2/files-2.1/2f89605d8fab6e5f468efee1c6bca938/jetified-facebook-login-5.15.3/res/values-mr/values-mr.xml",

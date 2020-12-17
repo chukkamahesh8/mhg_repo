@@ -1,218 +1,218 @@
 [
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_addcart.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_addcart.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_sidepanel.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_sidepanel.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_verifytestmail.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_verifytestmail.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/progressbar_please_wait.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/progressbar_please_wait.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_change__password.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_change__password.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_myorders.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_myorders.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_login_flow.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_login_flow.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/fragment_home.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/fragment_home.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/my_orders_fragment.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/my_orders_fragment.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_confirmaddress.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_confirmaddress.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_cart.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_cart.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_home.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_home.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_bookingid.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_bookingid.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen3.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_splashscreen3.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_verify_mobileno.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_verify_mobileno.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/splash_screen_activity.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/splash_screen_activity.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_forgotpassword.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_forgotpassword.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen2.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_splashscreen2.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_newproduct.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_newproduct.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/progress.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/progress.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_otp_verification.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_otp_verification.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_newproduct.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_newproduct.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/progress.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/progress.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_product.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_product.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen4.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_splashscreen4.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/notifications_fragment.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/notifications_fragment.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_offer.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_offer.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_otp.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_otp.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_dashboard.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_dashboard.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/special_offers_fragment.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/special_offers_fragment.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_verifytestmail.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_verifytestmail.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/right_top_navigation.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/right_top_navigation.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_notifications.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_notifications.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_offer.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_offer.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_signup.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_signup.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen4.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_splashscreen4.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_delivery_address.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_delivery_address.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_notifications.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_notifications.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_my_orders.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_my_orders.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_loginpassword.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_loginpassword.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/splash_screen_activity.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/splash_screen_activity.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_main_signup.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_main_signup.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/cart_fragment.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/cart_fragment.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen1.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_splashscreen1.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_addcart.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_addcart.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_address.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_address.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_loginotp.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_loginotp.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_myorders.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_myorders.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_category_row.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_category_row.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/progressbar_please_wait.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/progressbar_please_wait.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_product.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_product.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_update__profile.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_update__profile.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/special_offers_fragment.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/special_offers_fragment.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_category_row.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_category_row.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/list_updates.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/list_updates.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_dashboard.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_dashboard.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/notifications_fragment.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/notifications_fragment.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/list_updates.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/list_updates.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_loginpassword.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_loginpassword.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_category_wishlist2.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_category_wishlist2.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen2.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_splashscreen2.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_slider.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_slider.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_enterforgotpassword.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_enterforgotpassword.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_password.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_password.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_slider.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_slider.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_loginotp.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_loginotp.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_main_signup.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_main_signup.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/custom_image_layout.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/custom_image_layout.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_profile.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_profile.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_my_orders.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_my_orders.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_otp.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_otp.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/bottom_bar.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/bottom_bar.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_home.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_home.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/fragment_dashboard.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/fragment_dashboard.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/bottom_bar.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/bottom_bar.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_confirmaddress.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_confirmaddress.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_change_password.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_change_password.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_delivery_address.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_delivery_address.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_welcome.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_welcome.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/fragment_home.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/fragment_home.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_change__password.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_change__password.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_login.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_login.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_address.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_address.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_signup.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_signup.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/my_orders_fragment.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/my_orders_fragment.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_verify_mobileno.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_verify_mobileno.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/custom_image_layout.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/custom_image_layout.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_sidepanel.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_sidepanel.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/fragment_dashboard.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_add_newaddress.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_add_newaddress.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen3.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_splashscreen3.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_profile.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_profile.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_splashscreen1.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_splashscreen1.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_enterforgotpassword.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_enterforgotpassword.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_password.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/view_password.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_bookingid.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_bookingid.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_login_flow.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_login_flow.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/view_otp_verification.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/view_otp_verification.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_add_newaddress.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_add_newaddress.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_change_password.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/item_change_password.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/item_cart.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/item_cart.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/cart_fragment.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/cart_fragment.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_update__profile.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_update__profile.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_forgotpassword.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_forgotpassword.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/right_top_navigation.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/right_top_navigation.xml"
     },
     {
-        "merged": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_welcome.xml",
-        "source": "/Users/mahesh/Documents/personal/Android/annaya/MHG git/app/src/main/res/layout/activity_welcome.xml"
+        "merged": "/Users/mahesh/mhg_repo/app/build/intermediates/incremental/mergeI2spaceDebugResources/stripped.dir/layout/activity_category_wishlist2.xml",
+        "source": "/Users/mahesh/mhg_repo/app/src/main/res/layout/activity_category_wishlist2.xml"
     }
 ]
