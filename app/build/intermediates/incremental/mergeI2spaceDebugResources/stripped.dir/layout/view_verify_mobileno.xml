@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+                                                                   
+    
+
+
+           
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent"
+        android:orientation="vertical" android:tag="layout/view_verify_mobileno_0" xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <View
+            android:id="@+id/view_shade"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:layout_above="@+id/card_view2"
+            android:layout_marginBottom="-60dp"
+            android:background="@drawable/gradient" />
+
+
+        <LinearLayout
+            android:id="@+id/card_view2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="@drawable/cardview"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/rl_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="@dimen/_22sdp"
+                    android:layout_marginTop="@dimen/_35sdp"
+                    android:clickable="true"
+                    android:onClick="otpBackArrow"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/ic_back_arrow" />
+
+                <Button
+                    android:id="@+id/btnChangeNumber"
+                    android:layout_width="143dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_21sdp"
+                    android:background="@drawable/rounded_border"
+                    android:backgroundTint="@color/bright_orange"
+                    android:fontFamily="@font/poppins_medium"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:onClick="changeNumber"
+                    android:text="Change Number"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/Change_Email" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top|center"
+                    android:orientation="vertical" android:tag="binding_1">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_15sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Verify Mobile Number"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="23sp"
+                        />
+
+                    <TextView
+                        android:id="@+id/txt_show_phone_number"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginHorizontal="@dimen/_25sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:text="@string/lbl_please_enter_the_otp_sent_to"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/tv_description" />
+
+
+                    <include
+                        android:id="@+id/view_otp_layout"
+                        layout="@layout/view_otp" />
+
+                    <!--
+                                        <Button
+                                            android:id="@+id/btn_Login"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_gravity="center"
+                                            android:layout_margin="@dimen/_10sdp"
+                                            android:background="@drawable/rounded_border"
+                                            android:backgroundTint="@color/colorOrange"
+                                            android:fontFamily="@font/poppins_medium"
+                                            android:gravity="center"
+                                            android:text="@string/mBtn_Login"
+                                            android:textAllCaps="false"
+                                            android:textColor="@color/colorWhite"
+                                            android:layout_marginRight="@dimen/_98sdp"
+                                            android:layout_marginLeft="@dimen/_98sdp"
+                                            android:layout_marginTop="@dimen/_62sdp"
+                                            android:textSize="@dimen/btn_login" />
+                    -->
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+         

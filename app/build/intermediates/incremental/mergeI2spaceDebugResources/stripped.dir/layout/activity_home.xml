@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+        
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:background="@color/colorWhite"
+        android:layout_height="match_parent" android:tag="layout/activity_home_0">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_10sdp"
+                android:orientation="vertical"
+                tools:context=".activities.HomeActivity" android:tag="binding_1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@color/colorWhite"
+                    android:id="@+id/toolbar">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/ll_profile"
+                        android:padding="@dimen/_5sdp">
+
+                        <TextView
+                            android:layout_width="46dp"
+                            android:layout_height="42dp"
+                            android:background="@drawable/oval"
+                            android:backgroundTint="@color/bright_orange"
+                            android:clickable="true"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:onClick="homeProfile"
+                            android:text="Profile"
+                            android:textColor="@color/colorWhite"
+                            android:textSize="11sp" />
+
+                        <TextView
+                            android:id="@+id/tv_Location"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_5sdp"
+                            android:layout_weight="1"
+                            android:fontFamily="@font/poppins_regular"
+                            android:gravity="center_vertical"
+                            android:onClick="homeDeliveryAdd"
+                            android:includeFontPadding="false"
+                            android:clickable="true"
+                            android:text="Deliver to Customer Name - Location Pincode"
+                            android:textColor="@color/bright_orange"
+                            android:textSize="9sp" />
+
+                        <Button
+                            android:layout_width="@dimen/_30sdp"
+                            android:layout_height="@dimen/_30sdp"
+                            android:id="@+id/menuButton"
+                            android:background="@drawable/rounded_border"
+                            android:onClick="menuButton"
+                            android:clickable="true"
+                            android:gravity="center"
+                            android:textSize="25sp"
+                            android:layout_gravity="center"
+                            android:includeFontPadding="false"
+                            android:text="+"
+                            android:textColor="@color/bright_orange" />
+                    </LinearLayout>
+
+                    <EditText
+                        android:id="@+id/ed_searchpanel"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:background="@drawable/fill_rounded"
+                        android:fontFamily="@font/poppins_regular"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:includeFontPadding="false"
+                        android:hint="Search Panel"
+                        android:textColorHint="@color/bright_orange"
+                        android:textSize="12sp" />
+                </LinearLayout>
+
+                <com.denzcoskun.imageslider.ImageSlider
+                    android:id="@+id/image_slider"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_marginHorizontal="@dimen/_15sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:gravity="center"
+                    android:scrollbars="horizontal"
+                    android:visibility="gone"
+                    app:corner_radius="5"
+                    app:delay="0"
+                    app:period="1000" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_fruits_vegetables"
+                    android:layout_marginTop="@dimen/_10sdp"/>
+
+                <include layout="@layout/view_slider"/>
+
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_categories"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/rv_products"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:tag="binding_2">
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:tag="binding_3">
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:tag="binding_4">
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_category_row"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:fontFamily="@font/poppins_regular"
+                    android:includeFontPadding="false"
+                    android:text="Previously Ordered"
+                    android:textColor="@color/colorBlack"
+                    android:textSize="12sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:tag="binding_5">
+
+                    <include
+                        layout="@layout/item_product"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_product"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" android:tag="binding_6">
+
+                    <include
+                        layout="@layout/item_product"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+
+                    <include
+                        layout="@layout/item_product"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+        <include layout="@layout/view_sidepanel"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/view_profile"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+         
