@@ -93,12 +93,15 @@ public class HomeActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+
         tvLogout.setOnClickListener(view -> {
             DataHelper.clearData(this);
             Intent intent = new Intent(HomeActivity.this, LoginActivity.class);
             startActivity(intent);
             finish();
         });
+
+
     }
     public void homeProfile(View view) {
         Intent intent = new Intent(this, RighttopNavigationActivity.class);

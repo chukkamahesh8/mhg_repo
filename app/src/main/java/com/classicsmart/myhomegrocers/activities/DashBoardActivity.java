@@ -164,7 +164,9 @@ public class DashBoardActivity extends BaseActivity implements View.OnClickListe
                 }
                 break;
             case R.id.ll_cart:
-                if (!mCartFragment.isVisible()) {
+                Intent intent=new Intent(this, CartActivity.class);
+                startActivity(intent);
+               /* if (!mCartFragment.isVisible()) {
                     toolbar.setTitle(CartFragment.mTitle);
                     loadFragment(mCartFragment);
                     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -175,7 +177,7 @@ public class DashBoardActivity extends BaseActivity implements View.OnClickListe
                         mIvCart.setImageResource(R.drawable.ic_active_cart);
 
                     }
-                }
+                }*/
                 break;
         }
     }
