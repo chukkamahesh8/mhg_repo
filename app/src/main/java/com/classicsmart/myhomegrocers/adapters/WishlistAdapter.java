@@ -23,8 +23,8 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
     private String _stringVal;
 
     public WishlistAdapter(Context context, List<WishListData> wishListData) {
-        this.wishListData=wishListData;
-        this.mcontext=context;
+        this.wishListData = wishListData;
+        this.mcontext = context;
     }
 
     @NonNull
@@ -36,9 +36,9 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
 
     @Override
     public void onBindViewHolder(@NonNull MyViewHolder holder, int position) {
-        WishListData wishListDataList=wishListData.get(position);
+        WishListData wishListDataList = wishListData.get(position);
         holder.tv_productName.setText(wishListDataList.getName());
-       // holder.tv_productCount.setText(wishListDataList.get());
+        // holder.tv_productCount.setText(wishListDataList.get());
         holder.productPrice.setText(wishListDataList.getPrice());
         Glide.with(mcontext)
                 .load(wishListDataList.getThumb())
@@ -55,17 +55,18 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
     }
 
     public class MyViewHolder extends RecyclerView.ViewHolder {
-        public TextView tv_productName,productPrice;
+        public TextView tv_productName, productPrice;
         public ImageView img_product;
-        public TextView tv_plus,tv_minus,tv_productCount;
+        public TextView tv_plus, tv_minus, tv_productCount;
+
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
-            tv_productName=itemView.findViewById(R.id.tv_productname);
-            productPrice=itemView.findViewById(R.id.productprice);
-            img_product=itemView.findViewById(R.id.productimg);
-            tv_plus=itemView.findViewById(R.id.tv_plus);
-            tv_minus=itemView.findViewById(R.id.tvminus);
-            tv_productCount=itemView.findViewById(R.id.tv_productcount);
+            tv_productName = itemView.findViewById(R.id.tv_productname);
+            productPrice = itemView.findViewById(R.id.productprice);
+            img_product = itemView.findViewById(R.id.productimg);
+            tv_plus = itemView.findViewById(R.id.tv_plus);
+            tv_minus = itemView.findViewById(R.id.tvminus);
+            tv_productCount = itemView.findViewById(R.id.tv_productcount);
             tv_plus.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -81,16 +82,11 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
                     _stringVal = Integer.toString(counter);
                     tv_productCount.setText(_stringVal);
 
-                    if (counter < 1)
-                    {
+                    if (counter < 1) {
                         tv_productCount.setText("1");
                     }
                 }
             });
-
-
-
-
         }
     }
 }
