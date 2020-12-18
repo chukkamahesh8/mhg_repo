@@ -169,6 +169,8 @@
             android:layout_marginTop="@dimen/_25sdp"
             android:layout_marginBottom="@dimen/_20sdp"
             android:textColor="@color/bright_orange"
+            android:clickable="true"
+            android:onClick="myWishlist"
             android:fontFamily="@font/poppins_semibold" />
         </LinearLayout>
 

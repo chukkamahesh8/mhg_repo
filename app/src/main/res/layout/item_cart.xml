@@ -157,7 +157,7 @@
                  android:includeFontPadding="false"
                  android:maxLength="2"
                  android:maxLines="1"
-                 android:text="2"
+                 android:text="0"
                  android:textColor="@color/colorWhite"
                  android:textSize="@dimen/_12sdp" />
 
@@ -172,7 +172,6 @@
              android:layout_marginTop="@dimen/_14sdp"
              android:layout_toStartOf="@+id/ll_imgcart"
              android:fontFamily="@font/poppins_medium"
-             android:lines="1"
              android:singleLine="true"
              android:text="Product Name"
              android:textColor="@color/colorBlack"

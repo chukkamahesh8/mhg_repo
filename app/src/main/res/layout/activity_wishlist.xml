@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    tools:context=".activities.WishlistActivity">
+    <LinearLayout
+        android:id="@+id/ll_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_20sdp">
+
+        <ImageView
+            android:id="@+id/wishlistBackPress"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="19dp"
+            android:layout_marginLeft="@dimen/_23sdp"
+            android:clickable="true"
+            android:onClick="wishlistBackPress"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_back_arrow" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Wishlist"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+    <RelativeLayout
+        android:layout_width="@dimen/_25sdp"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_gravity="end"
+        android:layout_marginHorizontal="@dimen/_170sdp"
+        android:background="@drawable/ic_circle_ringl"
+        android:backgroundTint="@color/colorPrimary">
+
+        <ImageView
+            android:id="@+id/im_share"
+            android:layout_width="@dimen/_11sdp"
+            android:layout_height="@dimen/_12sdp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_share" />
+
+    </RelativeLayout>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_getwhislist"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll_top"
+        android:layout_height="wrap_content"
+        tools:listitem="@layout/item_wishlist" />
+
+
+</RelativeLayout>
+

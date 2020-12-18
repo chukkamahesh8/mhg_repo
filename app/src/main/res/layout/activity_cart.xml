@@ -22,7 +22,8 @@
                 android:layout_height="19dp"
                 android:layout_marginLeft="@dimen/_23sdp"
                 android:clickable="true"
-                android:onClick="deliveryAddress"
+                android:layout_marginVertical="@dimen/_3sdp"
+                android:onClick="cartBackPress"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_back_arrow" />
 
@@ -102,12 +103,13 @@
                     android:textSize="@dimen/_15sdp" />
 
                 <TextView
+                    android:id="@+id/tv_price"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/poppins_regular"
                     android:text="price details"
                     android:textColor="@color/bright_orange"
-                    android:textSize="@dimen/_12sdp" />
+                    android:textSize="12sp" />
             </LinearLayout>
         </RelativeLayout>
 

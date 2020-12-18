@@ -89,6 +89,9 @@ public class RighttopNavigationActivity extends AppCompatActivity  {
         startActivity(intent);
         finish();
     }
-
-
+    public void myWishlist(View view) {
+        Intent intent= new Intent(this,WishlistActivity.class);
+        startActivity(intent);
+        finish();
+    }
 }

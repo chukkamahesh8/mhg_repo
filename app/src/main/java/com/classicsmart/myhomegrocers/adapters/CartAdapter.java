@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -21,6 +22,8 @@ import java.util.List;
 public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder> {
     private List<Product>products;
     private Context mcontext;
+    private static int counter = 0;
+    private String _stringVal;
 
     public CartAdapter(Context context, List<Product> products) {
         this.products=products;
@@ -65,6 +68,29 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.MyViewHolder> 
             tv_minus=itemView.findViewById(R.id.tvminus);
             tv_productCount=itemView.findViewById(R.id.tv_productcount);
             img_product=itemView.findViewById(R.id.productimg);
+            tv_plus.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    counter++;
+                    _stringVal = Integer.toString(counter);
+                    tv_productCount.setText(_stringVal);
+                }
+            });
+            tv_minus.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    counter--;
+                    _stringVal = Integer.toString(counter);
+                    tv_productCount.setText(_stringVal);
+
+                    if (counter < 1)
+                    {
+                        tv_productCount.setText("1");
+                    }
+                }
+            });
         }
+
+
     }
 }
