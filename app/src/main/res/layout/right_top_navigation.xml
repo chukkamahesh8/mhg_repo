@@ -55,6 +55,8 @@
                     android:backgroundTint="@color/bright_orange"
                     android:background="@drawable/oval"
                     android:scaleType="center"
+                    android:clickable="true"
+                    android:onClick="updateProfileEdit"
                     android:src="@drawable/ic_edit_tools" />
 
                 <ImageView

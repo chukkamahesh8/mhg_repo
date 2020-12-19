@@ -46,7 +46,7 @@ public class Product implements Serializable
     private String price;
     @SerializedName("saving_total")
     @Expose
-    private Long savingTotal;
+    private double savingTotal;
     @SerializedName("total")
     @Expose
     private String total;
@@ -154,11 +154,11 @@ public class Product implements Serializable
         this.price = price;
     }
 
-    public Long getSavingTotal() {
+    public double getSavingTotal() {
         return savingTotal;
     }
 
-    public void setSavingTotal(Long savingTotal) {
+    public void setSavingTotal(double savingTotal) {
         this.savingTotal = savingTotal;
     }
 

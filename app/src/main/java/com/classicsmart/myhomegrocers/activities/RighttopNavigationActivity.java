@@ -9,6 +9,7 @@ import android.text.SpannableString;
 import android.text.SpannableStringBuilder;
 import android.text.style.StyleSpan;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,6 +24,7 @@ import java.util.Objects;
 
 public class RighttopNavigationActivity extends AppCompatActivity  {
     RightTopNavigationBinding rightTopNavigationBinding;
+    Button edit_profile;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +42,6 @@ public class RighttopNavigationActivity extends AppCompatActivity  {
             wordtoSpan.setSpan(new StyleSpan(Typeface.BOLD), 11, wordtoSpan.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
             rightTopNavigationBinding.tvDeliverCustomerName.setText(wordtoSpan);
         }
-
     }
 
     private void setData(UserDetails userData) {
@@ -93,5 +94,11 @@ public class RighttopNavigationActivity extends AppCompatActivity  {
         Intent intent= new Intent(this,WishlistActivity.class);
         startActivity(intent);
         finish();
+    }
+
+    public void updateProfileEdit(View view) {
+        Intent intent= new Intent(this,UpdateProfileActivity.class);
+        startActivity(intent);
+        
     }
 }
