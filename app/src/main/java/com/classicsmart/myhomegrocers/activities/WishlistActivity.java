@@ -9,6 +9,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.classicsmart.myhomegrocers.R;
 import com.classicsmart.myhomegrocers.adapters.WishlistAdapter;
+import com.classicsmart.myhomegrocers.models.cart.DeleteCartResponse;
 import com.classicsmart.myhomegrocers.models.wishlist.GetWishListResponse;
 import com.classicsmart.myhomegrocers.network.ApiConstants;
 import com.classicsmart.myhomegrocers.presenters.ApiCallBack;
@@ -59,6 +60,10 @@ public class WishlistActivity extends BaseActivity implements ApiCallBack {
                     wishlistAdapter.notifyDataSetChanged();
                     Toast.makeText(this, addressResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
                 }
+                break;
+                case ApiConstants.Constants.API_DELETE_WISHLIST:
+                DeleteCartResponse deleteWishListResponse = (DeleteCartResponse) response.body();
+                    Toast.makeText(this, deleteWishListResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
                 break;
         }
 

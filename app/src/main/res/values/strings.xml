@@ -95,4 +95,6 @@
     <string name="dash_my_orders">My Orders</string>
     <string name="dash_notifications">Notifications</string>
 
+    <string name="login_error">"User is not logged."</string>
+
 </resources>
