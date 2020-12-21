@@ -21,10 +21,19 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
     private Context mcontext;
     private static int counter = 0;
     private String _stringVal;
+    private final WishListClickListener wishListClickListener;
 
-    public WishlistAdapter(Context context, List<WishListData> wishListData) {
+
+    public WishlistAdapter(Context context, List<WishListData> wishListData, WishListClickListener wishListClickListener) {
         this.wishListData = wishListData;
         this.mcontext = context;
+        this.wishListClickListener = wishListClickListener;
+    }
+
+
+    public interface WishListClickListener {
+        void wishListDeleteClick(View view, WishListData product);
+        void wishListAddCartClick(View view, WishListData product);
     }
 
     @NonNull
@@ -54,19 +63,22 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
         return wishListData.size();
     }
 
-    public class MyViewHolder extends RecyclerView.ViewHolder {
+    public class MyViewHolder extends RecyclerView.ViewHolder  {
         public TextView tv_productName, productPrice;
-        public ImageView img_product;
-        public TextView tv_plus, tv_minus, tv_productCount;
+        public ImageView img_product, deleteItem, shareItem;
+        public TextView tv_plus, tv_minus, tv_productCount,tvAddCart;
 
         public MyViewHolder(@NonNull View itemView) {
             super(itemView);
             tv_productName = itemView.findViewById(R.id.tv_productname);
             productPrice = itemView.findViewById(R.id.productprice);
             img_product = itemView.findViewById(R.id.productimg);
+            deleteItem = itemView.findViewById(R.id.wishlistproductdelete);
+            shareItem = itemView.findViewById(R.id.whishlistproductshare);
             tv_plus = itemView.findViewById(R.id.tv_plus);
             tv_minus = itemView.findViewById(R.id.tvminus);
-            tv_productCount = itemView.findViewById(R.id.tv_productcount);
+            tv_minus = itemView.findViewById(R.id.txt_addto_cart);
+            tvAddCart = itemView.findViewById(R.id.tv_productcount);
             tv_plus.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -87,6 +99,18 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
                     }
                 }
             });
+
+            deleteItem.setOnClickListener(v -> {
+                wishListClickListener.wishListDeleteClick(v, wishListData.get(getAdapterPosition()));
+
+            });
+            tvAddCart.setOnClickListener(v -> {
+                wishListClickListener.wishListAddCartClick(v, wishListData.get(getAdapterPosition()));
+
+            });
+
+
         }
+
     }
 }

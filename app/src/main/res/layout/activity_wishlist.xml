@@ -57,8 +57,21 @@
         android:id="@+id/rv_getwhislist"
         android:layout_width="match_parent"
         android:layout_below="@id/ll_top"
+        android:visibility="gone"
         android:layout_height="wrap_content"
         tools:listitem="@layout/item_wishlist" />
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/txt_empty"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_below="@id/ll_top"
+        android:layout_margin="@dimen/_10sdp"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Empty Wishlist..."
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/_18sdp" />
 
 
 </RelativeLayout>

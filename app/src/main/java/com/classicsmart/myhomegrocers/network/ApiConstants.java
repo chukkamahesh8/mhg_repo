@@ -6,6 +6,7 @@ public class ApiConstants<isStage> {
 
     static String CONSUMER_KEY = "ConsumerKey";
     public static final String ADDRESS_ID = "id";
+    public static final String CARTID = "&id";
     public static final String PAGE = "&page";
     public static final String ORDER_ID = "order_id";
     static String CONSUMER_SECRER = "ConsumerSecret";
@@ -50,9 +51,9 @@ public class ApiConstants<isStage> {
 
         /*Wishlist API's*/
         public class WishList{
-            public static final String ENDPOINT_ADD_PRODUCT_TO_WISHLIST = "rest/wishlist&id";
+            public static final String ENDPOINT_ADD_PRODUCT_TO_WISHLIST = "rest/wishlist";
             public static final String ENDPOINT_GET_WISHLIST= "rest/wishlist";
-            public static final String ENDPOINT_DELETE_PRODUCT = "rest/wishlist&id";
+            public static final String ENDPOINT_DELETE_PRODUCT = "rest/wishlist";
 
         }
 
