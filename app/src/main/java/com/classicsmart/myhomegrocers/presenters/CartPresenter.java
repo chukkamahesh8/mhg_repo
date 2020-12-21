@@ -1,6 +1,7 @@
 package com.classicsmart.myhomegrocers.presenters;
 
 
+import com.classicsmart.myhomegrocers.models.DeleteCartPayLoad;
 import com.classicsmart.myhomegrocers.models.cart.AddCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.DeleteCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.GetCartResponse;
@@ -23,6 +24,7 @@ public class CartPresenter {
     public CartPresenter(ApiCallBack apiCallBack) {
         this.apiCallBack = apiCallBack;
         apiClient = new ApiClient();
+
     }
 
     public void getCartList(String auth, final int type) {
@@ -54,8 +56,8 @@ public class CartPresenter {
         });
     }
 
-    public void deleteCartItem(String auth, final int type) {
-        apiClient.getClient().deleteCartItem(auth).enqueue(new Callback<DeleteCartResponse>() {
+    public void deleteCartItem(String auth, DeleteCartPayLoad deleteCartPayLoad,final int type) {
+        apiClient.getClient().deleteCartItem(auth,deleteCartPayLoad).enqueue(new Callback<DeleteCartResponse>() {
             @Override
             public void onResponse(Call<DeleteCartResponse> call, Response<DeleteCartResponse> response) {
                 if (response.code() == 200) {

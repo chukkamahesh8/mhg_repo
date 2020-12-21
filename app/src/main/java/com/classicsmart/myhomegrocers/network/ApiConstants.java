@@ -102,10 +102,10 @@ public class ApiConstants<isStage> {
         public static final int API_LIST_ADDRESS = 116;
 
         public static final int API_GET_CART = 122;
-
         public static final int API_DELETE_CART = 123;
         public static final int API_UPDATE_CART= 117;
         public static final int API_ADD_CART = 118;
+
         public static final int API_ADD_WISHLIST = 119;
         public static final int API_GET_WISHLIST = 120;
         public static final int API_DELETE_WISHLIST = 121;

@@ -3,6 +3,7 @@ package com.classicsmart.myhomegrocers.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -16,16 +17,21 @@ import java.util.Objects;
 
 public class UpdateProfileActivity extends AppCompatActivity {
 
-    EditText ed_firstname,ed_lastname,ed_email,ed_mobilenumber;
+    EditText edFirstName,edLastName,edEmail,edMobileNumber;
+    Button btnNotNow;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_update__profile);
-        ed_firstname=findViewById(R.id.txtFirstName);
-        ed_lastname=findViewById(R.id.txtLastName);
-        ed_email=findViewById(R.id.txtEmail);
-        ed_mobilenumber=findViewById(R.id.txtTelephone);
+        edFirstName=findViewById(R.id.txtFirstName);
+        edLastName=findViewById(R.id.txtLastName);
+        edEmail=findViewById(R.id.txtEmail);
+        edMobileNumber=findViewById(R.id.txtTelephone);
+        btnNotNow=findViewById(R.id.btn_notnow);
+        btnNotNow.setOnClickListener(view -> {
+            finish();
+        });
         if (DataHelper.getUserData(this)!=null){
             setData(Objects.requireNonNull(DataHelper.getUserData(this)));
         }
@@ -42,9 +48,9 @@ public class UpdateProfileActivity extends AppCompatActivity {
 
     }
     private void setData(UserDetails userDetails){
-        ed_firstname.setText(userDetails.getFirstname());
-        ed_lastname.setText(userDetails.getLastname());
-        ed_email.setText(userDetails.getEmail());
-        ed_mobilenumber.setText(userDetails.getTelephone());
+        edFirstName.setText(userDetails.getFirstname());
+        edLastName.setText(userDetails.getLastname());
+        edEmail.setText(userDetails.getEmail());
+        edMobileNumber.setText(userDetails.getTelephone());
     }
 }

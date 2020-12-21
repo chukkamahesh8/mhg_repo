@@ -2,6 +2,7 @@ package com.classicsmart.myhomegrocers.network;
 
 
 import com.classicsmart.myhomegrocers.models.CancelOrderPayload;
+import com.classicsmart.myhomegrocers.models.DeleteCartPayLoad;
 import com.classicsmart.myhomegrocers.models.FeedBackPayload;
 import com.classicsmart.myhomegrocers.models.ForgotPasswordPayLoad;
 import com.classicsmart.myhomegrocers.models.ForgotPasswordResponse;
@@ -35,6 +36,7 @@ import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.DELETE;
 import retrofit2.http.GET;
+import retrofit2.http.HTTP;
 import retrofit2.http.Header;
 import retrofit2.http.POST;
 import retrofit2.http.PUT;
@@ -105,8 +107,9 @@ public interface ApiInterface {
     @GET(ApiConstants.EndPoints.Cart.ENDPOINT_GET_CART)
     Call<GetCartResponse> getCart(@Header(ApiConstants.AUTHORIZATION) String auth);
 
-    @DELETE(ApiConstants.EndPoints.Cart.ENDPOINT_DELETE_PRODUCT)
-    Call<DeleteCartResponse> deleteCartItem(@Header(ApiConstants.AUTHORIZATION) String auth);
+    //@DELETE(ApiConstants.EndPoints.Cart.ENDPOINT_DELETE_PRODUCT)
+    @HTTP(method = "DELETE", path = ApiConstants.EndPoints.Cart.ENDPOINT_DELETE_PRODUCT, hasBody = true)
+    Call<DeleteCartResponse> deleteCartItem(@Header(ApiConstants.AUTHORIZATION) String auth, @Body DeleteCartPayLoad deleteCartPayLoad);
 
     @POST(ApiConstants.EndPoints.Cart.ENDPOINT_UPDATE_PRODUCT)
     Call<UpdateCartResponse> updateCartResponse(@Header(ApiConstants.AUTHORIZATION) String auth);

@@ -22,7 +22,6 @@
                 android:layout_marginLeft="@dimen/_23sdp"
                 android:clickable="true"
                 android:layout_marginVertical="@dimen/_3sdp"
-                android:onClick="cartBackPress"
                 android:scaleType="centerCrop"
                 android:src="@drawable/ic_back_arrow" />
 
