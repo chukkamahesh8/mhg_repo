@@ -43,6 +43,7 @@ public class WishlistActivity extends BaseActivity implements ApiCallBack {
     private void initPresenter() {
         wishListPresenter = new WishListPresenter(this);
         showDialog();
+
         String authorization =DataHelper.getAuthToken(this);
         wishListPresenter.getWishList(authorization, ApiConstants.Constants.API_GET_WISHLIST);
     }
