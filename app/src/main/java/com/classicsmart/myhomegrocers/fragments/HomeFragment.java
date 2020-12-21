@@ -173,7 +173,7 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
                 ((DashBoardActivity) getActivity()).showDialog();
                 Product product = new Product();
                 product.setProductId(item.getId());
-                product.setQuantity(item.getCartQuantity() + "");
+                product.setQuantity(1 + "");
                 cartPresenter.addProductToCart(DataHelper.getAuthToken(getContext()), product, ApiConstants.Constants.API_ADD_CART);
                 break;
         }

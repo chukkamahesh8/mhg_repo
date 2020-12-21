@@ -5,13 +5,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.classicsmart.myhomegrocers.R;
 import com.classicsmart.myhomegrocers.adapters.DelAddressAdapter;
-import com.classicsmart.myhomegrocers.models.address.AddAddressResponse;
 import com.classicsmart.myhomegrocers.models.address.AddressResponse;
 import com.classicsmart.myhomegrocers.network.ApiConstants;
 import com.classicsmart.myhomegrocers.presenters.AddressPresenter;
@@ -26,7 +24,7 @@ import retrofit2.Response;
 
 public class DeliveryAddressActivity extends BaseActivity implements ApiCallBack {
 
-    private List<DeliveryAddressPojo>deliveryAddressPojoList = new ArrayList<>();
+    private final List<DeliveryAddressPojo> deliveryAddressPojoList = new ArrayList<>();
     DelAddressAdapter delAddressAdapter;
     AddressPresenter addressPresenter;
     RecyclerView recyclerView;
@@ -45,7 +43,7 @@ public class DeliveryAddressActivity extends BaseActivity implements ApiCallBack
     private void initPresenter() {
         addressPresenter=new AddressPresenter(this);
         showDialog();
-        String authorization = "Bearer " + "ee09036008df251726b734c3808b3fd19f8d38ae";
+        String authorization = DataHelper.getAuthToken(this);
         addressPresenter.getAddressApi(authorization, ApiConstants.Constants.API_LIST_ADDRESS);
 
 

@@ -9,18 +9,12 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.classicsmart.myhomegrocers.R;
-import com.classicsmart.myhomegrocers.adapters.DelAddressAdapter;
 import com.classicsmart.myhomegrocers.adapters.MyOrdersAdapter;
-import com.classicsmart.myhomegrocers.models.address.AddressResponse;
 import com.classicsmart.myhomegrocers.models.myOrders.GetMyOrdersResponse;
 import com.classicsmart.myhomegrocers.network.ApiConstants;
-import com.classicsmart.myhomegrocers.presenters.AddressPresenter;
 import com.classicsmart.myhomegrocers.presenters.ApiCallBack;
 import com.classicsmart.myhomegrocers.presenters.MyOrdersPresenter;
 import com.classicsmart.myhomegrocers.utils.DataHelper;
-
-import java.util.ArrayList;
-import java.util.List;
 
 import retrofit2.Response;
 
@@ -45,7 +39,7 @@ public class MyOrdersActivity extends BaseActivity implements ApiCallBack {
     private void initPresenter() {
         myOrderPresenter=new MyOrdersPresenter(this);
         showDialog();
-        String authorization = "Bearer " + "ee09036008df251726b734c3808b3fd19f8d38ae";
+        String authorization = DataHelper.getAuthToken(this);
         myOrderPresenter.getMYOrders(authorization,1, ApiConstants.Constants.API_GET_ORDERS);
 
     }
