@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.classicsmart.myhomegrocers.R;
 import com.classicsmart.myhomegrocers.adapters.WishlistAdapter;
+import com.classicsmart.myhomegrocers.models.cart.AddCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.wishlist.GetWishListResponse;
 import com.classicsmart.myhomegrocers.models.wishlist.WishListData;
@@ -93,9 +94,9 @@ public class WishlistActivity extends BaseActivity implements ApiCallBack, Wishl
                 }
                 break;
             case ApiConstants.Constants.API_ADD_CART:
-                WishListResponse wishListResponse = (WishListResponse) response.body();
-                if (wishListResponse != null && wishListResponse.getStatus() != null && !wishListResponse.getStatus().getMessage().isEmpty()) {
-                    Toast.makeText(this, Html.fromHtml(wishListResponse.getStatus().getMessage()).toString(), Toast.LENGTH_SHORT).show();
+                AddCartResponse cart = (AddCartResponse) response.body();
+                if (cart != null && cart.getStatus() != null && !cart.getStatus().getMessage().isEmpty()) {
+                    Toast.makeText(this, Html.fromHtml(cart.getStatus().getMessage()).toString(), Toast.LENGTH_SHORT).show();
                 }
                 break;
         }
