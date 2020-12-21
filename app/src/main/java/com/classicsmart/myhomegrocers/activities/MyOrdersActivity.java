@@ -74,7 +74,7 @@ public class MyOrdersActivity extends BaseActivity implements ApiCallBack {
         switch (requestType) {
             case ApiConstants.Constants.API_GET_ORDERS:
                 GetMyOrdersResponse addressResponse=(GetMyOrdersResponse) response.body();
-                if (addressResponse.getData()!=null){
+                if (addressResponse!=null){
                     myOrderAdapter = new MyOrdersAdapter(this,addressResponse.getData().getOrders());
                     txtEmpty.setVisibility(View.GONE);
                     recyclerView.setAdapter(myOrderAdapter);
