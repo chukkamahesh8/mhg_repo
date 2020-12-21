@@ -22,8 +22,7 @@ public class WishlistActivity extends BaseActivity implements ApiCallBack {
     WishListPresenter wishListPresenter;
     RecyclerView recyWishlist;
     ImageView wishlistback;
-
-
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
