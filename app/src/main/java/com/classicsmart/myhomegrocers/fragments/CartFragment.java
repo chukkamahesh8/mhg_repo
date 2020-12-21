@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
@@ -16,20 +15,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.classicsmart.myhomegrocers.R;
 import com.classicsmart.myhomegrocers.adapters.CartAdapter;
 import com.classicsmart.myhomegrocers.databinding.CartFragmentBinding;
-import com.classicsmart.myhomegrocers.databinding.NotificationsFragmentBinding;
 import com.classicsmart.myhomegrocers.interfaces.DashboardApiCommunicator;
-import com.classicsmart.myhomegrocers.models.cart.CartData;
 import com.classicsmart.myhomegrocers.models.cart.GetCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.Product;
-import com.classicsmart.myhomegrocers.network.ApiConstants;
-import com.classicsmart.myhomegrocers.presenters.ApiCallBack;
 import com.classicsmart.myhomegrocers.presenters.CartPresenter;
 
-import java.util.ArrayList;
-
-import retrofit2.Response;
-
-public class CartFragment extends Fragment {
+public class CartFragment extends Fragment implements CartAdapter.CartItemClickListener {
     public static final String mTitle = "Cart";
     private CartFragmentBinding cartFragmentBinding;
     CartPresenter cartPresenter;
@@ -66,14 +57,18 @@ public class CartFragment extends Fragment {
 
 
     public void updateData(GetCartResponse data) {
-        if (data!=null){
+        if (data != null) {
             cartFragmentBinding.tvEmpty.setVisibility(View.GONE);
-                cartAdapter=new CartAdapter(getActivity(),data.getData().getProducts());
-                cartFragmentBinding.rvGetcart.setAdapter(cartAdapter);
-                cartAdapter.notifyDataSetChanged();
-        }else {
+            cartAdapter = new CartAdapter(getActivity(), data.getData().getProducts(), this);
+            cartFragmentBinding.rvGetcart.setAdapter(cartAdapter);
+            cartAdapter.notifyDataSetChanged();
+        } else {
             cartFragmentBinding.tvEmpty.setVisibility(View.VISIBLE);
         }
     }
 
+    @Override
+    public void cartItemClick(View view, Product product) {
+
+    }
 }

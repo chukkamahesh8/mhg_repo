@@ -63,6 +63,7 @@
              </RelativeLayout>
 
              <RelativeLayout
+                 android:id="@+id/btn_rl_cart_delete"
                  android:layout_width="@dimen/_23sdp"
                  android:layout_height="@dimen/_23sdp"
                  android:layout_marginStart="@dimen/_5sdp"

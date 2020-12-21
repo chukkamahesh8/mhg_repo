@@ -3,9 +3,11 @@ package com.classicsmart.myhomegrocers.fragments;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
@@ -24,6 +26,7 @@ import com.classicsmart.myhomegrocers.adapters.ProductsAdapter;
 import com.classicsmart.myhomegrocers.adapters.ViewPagerAdapter;
 import com.classicsmart.myhomegrocers.databinding.FragmentHomeBinding;
 import com.classicsmart.myhomegrocers.interfaces.DashboardApiCommunicator;
+import com.classicsmart.myhomegrocers.models.cart.AddCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.dashboard.Category;
 import com.classicsmart.myhomegrocers.models.dashboard.Data;
@@ -182,6 +185,14 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
     @Override
     public void onSuccessResponse(Response response, int requestType) {
         ((DashBoardActivity) getActivity()).dismissDialog();
+        switch (requestType) {
+            case ApiConstants.Constants.API_ADD_CART:
+                AddCartResponse cart = (AddCartResponse) response.body();
+                if (cart != null && cart.getStatus() != null && !cart.getStatus().getMessage().isEmpty()) {
+                    Toast.makeText(getContext(), Html.fromHtml(cart.getStatus().getMessage()).toString(), Toast.LENGTH_SHORT).show();
+                }
+                break;
+        }
 
     }
 
