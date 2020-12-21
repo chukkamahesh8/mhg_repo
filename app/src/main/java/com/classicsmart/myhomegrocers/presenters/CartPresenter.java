@@ -4,6 +4,7 @@ package com.classicsmart.myhomegrocers.presenters;
 import com.classicsmart.myhomegrocers.models.cart.AddCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.DeleteCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.GetCartResponse;
+import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.cart.UpdateCartResponse;
 import com.classicsmart.myhomegrocers.models.dashboard.DashboardResponse;
 import com.classicsmart.myhomegrocers.models.wishlist.GetWishListResponse;
@@ -82,8 +83,8 @@ public class CartPresenter {
         });
     }
 
-    public void addProductToCart(String auth, final int type) {
-        apiClient.getClient().addProductToCart(auth).enqueue(new Callback<AddCartResponse>() {
+    public void addProductToCart(String auth, Product product ,final int type) {
+        apiClient.getClient().addProductToCart(auth,product).enqueue(new Callback<AddCartResponse>() {
             @Override
             public void onResponse(Call<AddCartResponse> call, Response<AddCartResponse> response) {
                 if (response.code() == 200) {

@@ -26,7 +26,7 @@ public class DataHelper {
         setUserEncryptId(context, null);
         Prefs.clearSharedPreferences(context);
         setIsFirstTime(context, true);
-        setUserData(context,null);
+        setUserData(context, null);
         setRole(context, 0);
     }
 
@@ -76,7 +76,10 @@ public class DataHelper {
     }
 
     public static String getAuthToken(Context context) {
-        return Prefs.getSharedPreferencesString(context, keys.AUTHTOKEN, null);
+        if (Prefs.getSharedPreferencesString(context, keys.AUTHTOKEN, null) != null) {
+            return "Bearer " + Prefs.getSharedPreferencesString(context, keys.AUTHTOKEN, null);
+        }
+        return null;
     }
 
     public static void setAuthToken(Context context, String encryptId) {

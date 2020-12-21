@@ -99,7 +99,7 @@ public class AddNewAddressActivity extends BaseActivity implements ApiCallBack {
         addressPayLoad.setZoneId("3636");
         addressPayLoad.setDefault("1");
         showDialog();
-        String authorization = "Bearer " + DataHelper.getAuthToken(this);
+        String authorization = DataHelper.getAuthToken(this);
         addressPresenter.addAddressApi(authorization,addressPayLoad, ApiConstants.Constants.API_ADD_NEW_ADDRESS);
 
 

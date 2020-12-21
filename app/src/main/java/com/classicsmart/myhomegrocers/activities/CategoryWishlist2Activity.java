@@ -65,7 +65,7 @@ public class CategoryWishlist2Activity extends BaseActivity implements ApiCallBa
     private void initPresenter() {
         wishListPresenter= new WishListPresenter(this);
         showDialog();
-        String authorization = "Bearer " + DataHelper.getAuthToken(this);
+        String authorization =DataHelper.getAuthToken(this);
         wishListPresenter.getWishList(authorization, ApiConstants.Constants.API_GET_WISHLIST);
 
     }

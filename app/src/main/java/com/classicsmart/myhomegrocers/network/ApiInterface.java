@@ -18,6 +18,7 @@ import com.classicsmart.myhomegrocers.models.address.AddressResponse;
 import com.classicsmart.myhomegrocers.models.cart.AddCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.DeleteCartResponse;
 import com.classicsmart.myhomegrocers.models.cart.GetCartResponse;
+import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.cart.UpdateCartResponse;
 import com.classicsmart.myhomegrocers.models.dashboard.DashboardResponse;
 import com.classicsmart.myhomegrocers.models.myOrders.GetMyOrdersResponse;
@@ -111,8 +112,7 @@ public interface ApiInterface {
     Call<UpdateCartResponse> updateCartResponse(@Header(ApiConstants.AUTHORIZATION) String auth);
 
     @POST(ApiConstants.EndPoints.Cart.ENDPOINT_ADD_PRODUCT)
-    Call<AddCartResponse> addProductToCart(@Header(ApiConstants.AUTHORIZATION) String auth);
-
+    Call<AddCartResponse> addProductToCart(@Header(ApiConstants.AUTHORIZATION) String auth, @Body Product product);
 
     //MyOrders API
     @GET(ApiConstants.EndPoints.MYOrders.ENDPOINT_GET_ORDERS)

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorWhite"
-    android:orientation="vertical"
-    >
+    android:orientation="vertical">
+
     <RelativeLayout
         android:id="@+id/rl_top"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="@dimen/_20sdp"
         android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
         android:orientation="horizontal">
 
         <ImageView
             android:id="@+id/Imgview"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:scaleType="centerCrop"
-            android:onClick="profileNavigation"
             android:layout_marginTop="@dimen/_5sdp"
             android:clickable="true"
+            android:onClick="profileNavigation"
+            android:scaleType="centerCrop"
             android:src="@drawable/ic_back_arrow" />
 
         <TextView
@@ -31,134 +31,133 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:layout_marginTop="@dimen/_5sdp"
             android:fontFamily="@font/poppins_semibold"
             android:paddingStart="@dimen/_30sdp"
             android:text="Update Profile"
             android:textColor="@color/colorBlack"
             android:textSize="15sp" />
+
         <Button
             android:id="@+id/btn_changePassword"
             android:layout_width="@dimen/_110sdp"
             android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentRight="true"
             android:background="@drawable/rounded_border"
             android:backgroundTint="@color/bright_orange"
-            android:fontFamily="@font/poppins_medium"
-            android:text="@string/mBtn_ChangePassword"
-            android:textColor="@color/colorWhite"
-            android:gravity="center"
-            android:textSize="11sp"
-            android:textAllCaps="false"
-            android:layout_alignParentRight="true"
-            android:onClick="changePassword"
-            android:includeFontPadding="false"
             android:clickable="true"
-            />
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:onClick="changePassword"
+            android:text="@string/mBtn_ChangePassword"
+            android:textAllCaps="false"
+            android:textColor="@color/colorWhite"
+            android:textSize="11sp" />
     </RelativeLayout>
 
 
-    <include layout="@layout/view_profile"
-        android:layout_gravity="center"
-        android:layout_height="wrap_content"
+    <include
+        layout="@layout/view_profile"
         android:layout_width="wrap_content"
-        android:layout_marginTop="@dimen/_50sdp"
-        />
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_50sdp" />
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginHorizontal="@dimen/_20sdp">
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:orientation="vertical">
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtFirstName"
-        android:hint="@string/mTv_HintFirstName"
-        android:textSize="@dimen/Logintextsize"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/colorBlack"
-        android:backgroundTint="@color/colorOrange"
-        android:imeOptions="actionNext"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:inputType="text"
-       />
+        <EditText
+            android:id="@+id/txtFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/mTv_HintFirstName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/Logintextsize" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtLastName"
-        android:hint="@string/mTv_HintLastName"
-        android:textSize="@dimen/Logintextsize"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/colorBlack"
-        android:backgroundTint="@color/colorOrange"
-        android:imeOptions="actionNext"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:inputType="text"/>
+        <EditText
+            android:id="@+id/txtLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/mTv_HintLastName"
+            android:imeOptions="actionNext"
+            android:inputType="text"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/Logintextsize" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtEmail"
-        android:hint="@string/mtv_HintEmail"
-        android:textSize="@dimen/Logintextsize"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/colorBlack"
-        android:backgroundTint="@color/colorOrange"
-        android:imeOptions="actionNext"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:inputType="textEmailAddress"/>
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/mtv_HintEmail"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/Logintextsize" />
 
-    <EditText
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/txtTelephone"
-        android:hint="@string/mTv_Hintmoiblenumber"
-        android:textSize="@dimen/Logintextsize"
-        android:fontFamily="@font/poppins_medium"
-        android:textColor="@color/colorBlack"
-        android:backgroundTint="@color/colorOrange"
-        android:imeOptions="actionDone"
-        android:layout_marginTop="@dimen/_15sdp"
-        android:inputType="number"/>
+        <EditText
+            android:id="@+id/txtTelephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:backgroundTint="@color/colorOrange"
+            android:fontFamily="@font/poppins_medium"
+            android:hint="@string/mTv_Hintmoiblenumber"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:textColor="@color/colorBlack"
+            android:textSize="@dimen/Logintextsize" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-      android:layout_marginHorizontal="@dimen/_30sdp"
-        android:layout_marginTop="@dimen/_20sdp">
+        android:layout_marginHorizontal="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:orientation="horizontal">
+
         <Button
+            android:id="@+id/btn_notnow"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btn_notnow"
-            android:text="@string/mBtn_Notnow"
-            android:textSize="@dimen/Logintextsize"
-            android:fontFamily="@font/poppins_medium"
-            android:textColor="@color/brownish_grey"
-            android:background="@drawable/rounded_border"
             android:layout_gravity="center"
             android:layout_weight="1"
+            android:background="@drawable/rounded_border"
+            android:fontFamily="@font/poppins_medium"
             android:includeFontPadding="false"
-            android:textAllCaps="false" />
+            android:text="@string/mBtn_Notnow"
+            android:textAllCaps="false"
+            android:textColor="@color/brownish_grey"
+            android:textSize="@dimen/Logintextsize" />
+
         <Button
+            android:id="@+id/btnUpdate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnUpdate"
-            android:text="@string/mBtn_Update"
-            android:textSize="@dimen/Logintextsize"
-            android:fontFamily="@font/poppins_medium"
-            android:textColor="@color/colorWhite"
-            android:backgroundTint="@color/bright_orange"
-            android:background="@drawable/rounded_border"
+            android:layout_gravity="center"
             android:layout_marginLeft="@dimen/_20sdp"
             android:layout_weight="1"
-            android:layout_gravity="center"
+            android:background="@drawable/rounded_border"
+            android:backgroundTint="@color/bright_orange"
+            android:fontFamily="@font/poppins_medium"
             android:includeFontPadding="false"
+            android:text="@string/mBtn_Update"
             android:textAllCaps="false"
-           />
+            android:textColor="@color/colorWhite"
+            android:textSize="@dimen/Logintextsize" />
     </LinearLayout>
 
 </LinearLayout>

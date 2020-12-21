@@ -19,15 +19,19 @@ import java.util.List;
 public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.MyViewHolder> {
     private List<Category> categories;
     private Context mContext;
+    private CategoryItemClickListener categoryItemClickListener;
 
-    public CategoriesAdapter(Context context, List<Category> categories) {
+    public CategoriesAdapter(Context context, List<Category> categories, CategoryItemClickListener categoryItemClickListener) {
         this.categories = categories;
         this.mContext = context;
+        this.categoryItemClickListener = categoryItemClickListener;
     }
+
     public void setList(List<Category> sourcesList) {
         this.categories = sourcesList;
         notifyDataSetChanged();
     }
+
     @NonNull
     @Override
     public MyViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -57,6 +61,13 @@ public class CategoriesAdapter extends RecyclerView.Adapter<CategoriesAdapter.My
             super(itemView);
             title = itemView.findViewById(R.id.tv_cat_title);
             img = itemView.findViewById(R.id.img_cat);
+            itemView.setOnClickListener(v -> {
+                categoryItemClickListener.onCategorySelected(categories.get(getAdapterPosition()));
+            });
         }
+    }
+
+    public interface CategoryItemClickListener {
+        void onCategorySelected(Category item);
     }
 }

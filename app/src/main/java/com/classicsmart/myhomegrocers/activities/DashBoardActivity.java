@@ -218,15 +218,15 @@ public class DashBoardActivity extends BaseActivity implements View.OnClickListe
     @Override
     public void getHomeDataApi() {
         showDialog();
-        String authorization = "Bearer " + DataHelper.getAuthToken(this);
+        String authorization = DataHelper.getAuthToken(this);
         dashBoardPresenter.getHomeDashBoardApi(authorization, ApiConstants.Constants.API_DASHBOARD_HOME);
     }
 
     @Override
     public void getCartDataApi() {
         showDialog();
-        //String authorization = "Bearer " + DataHelper.getAuthToken(this);
-        String authorization = "Bearer " + "ee09036008df251726b734c3808b3fd19f8d38ae";
+        String authorization = DataHelper.getAuthToken(this);
+//        String authorization = authorization"Bearer " + "ee09036008df251726b734c3808b3fd19f8d38ae";
         cartPresenter.getCartList(authorization, ApiConstants.Constants.API_GET_CART);
 
     }

@@ -14,6 +14,7 @@ import androidx.recyclerview.widget.GridLayoutManager;
 
 import com.classicsmart.myhomegrocers.R;
 import com.classicsmart.myhomegrocers.activities.CartActivity;
+import com.classicsmart.myhomegrocers.activities.DashBoardActivity;
 import com.classicsmart.myhomegrocers.activities.DeliveryAddressActivity;
 import com.classicsmart.myhomegrocers.activities.LoginActivity;
 import com.classicsmart.myhomegrocers.activities.NotificationsActivity;
@@ -23,14 +24,20 @@ import com.classicsmart.myhomegrocers.adapters.ProductsAdapter;
 import com.classicsmart.myhomegrocers.adapters.ViewPagerAdapter;
 import com.classicsmart.myhomegrocers.databinding.FragmentHomeBinding;
 import com.classicsmart.myhomegrocers.interfaces.DashboardApiCommunicator;
+import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.dashboard.Category;
 import com.classicsmart.myhomegrocers.models.dashboard.Data;
 import com.classicsmart.myhomegrocers.models.dashboard.PreviouslyOrderedProduct;
+import com.classicsmart.myhomegrocers.network.ApiConstants;
+import com.classicsmart.myhomegrocers.presenters.ApiCallBack;
+import com.classicsmart.myhomegrocers.presenters.CartPresenter;
 import com.classicsmart.myhomegrocers.utils.DataHelper;
 
 import java.util.ArrayList;
 
-public class HomeFragment extends Fragment {
+import retrofit2.Response;
+
+public class HomeFragment extends Fragment implements CategoriesAdapter.CategoryItemClickListener, ProductsAdapter.ProductClickListener, ApiCallBack {
     public static final String mTitle = "Home";
     private FragmentHomeBinding homeBinding;
     private View viewTopMore;
@@ -38,6 +45,7 @@ public class HomeFragment extends Fragment {
     private CategoriesAdapter categoriesAdapter;
     private ProductsAdapter productsAdapter;
     private ViewPagerAdapter viewPagerAdapter;
+    private CartPresenter cartPresenter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -58,15 +66,16 @@ public class HomeFragment extends Fragment {
 
     public void initApi() {
         apiCommunicator.getHomeDataApi();
+        cartPresenter = new CartPresenter(this);
     }
 
     private void initViews() {
         homeBinding.rvCategories.setLayoutManager(new GridLayoutManager(getContext(), 3));
-        categoriesAdapter = new CategoriesAdapter(getContext(), new ArrayList<Category>());
+        categoriesAdapter = new CategoriesAdapter(getContext(), new ArrayList<Category>(), this);
         homeBinding.rvCategories.setAdapter(categoriesAdapter);
         //Products
         homeBinding.rvProducts.setLayoutManager(new GridLayoutManager(getContext(), 2));
-        productsAdapter = new ProductsAdapter(getContext(), new ArrayList<PreviouslyOrderedProduct>());
+        productsAdapter = new ProductsAdapter(getContext(), new ArrayList<PreviouslyOrderedProduct>(), this);
         homeBinding.rvProducts.setAdapter(productsAdapter);
         viewTopMore = homeBinding.viewMore.rlPanel;
         homeBinding.viewMore.rlPanel.setOnClickListener(v -> {
@@ -95,7 +104,7 @@ public class HomeFragment extends Fragment {
 
         homeBinding.viewMore.tvCart.setOnClickListener(view -> {
             closeTopMenu();
-            Intent intent=new Intent(getContext(), CartActivity.class);
+            Intent intent = new Intent(getContext(), CartActivity.class);
             startActivity(intent);
         });
         homeBinding.viewMore.tvLogout.setOnClickListener(view -> {
@@ -132,17 +141,53 @@ public class HomeFragment extends Fragment {
             if (categoriesAdapter != null) {
                 categoriesAdapter.setList(data.getCategories());
             }
-            if (!data.getPreviouslyOrderedProducts().isEmpty()){
+            if (!data.getPreviouslyOrderedProducts().isEmpty()) {
                 homeBinding.llPreviouslyOrderd.setVisibility(View.VISIBLE);
                 if (categoriesAdapter != null) {
                     productsAdapter.setList(data.getPreviouslyOrderedProducts());
                 }
-            }else {
+            } else {
                 homeBinding.llPreviouslyOrderd.setVisibility(View.GONE);
             }
             viewPagerAdapter = new ViewPagerAdapter(getActivity(), data.getBanner());
             homeBinding.tabDots.setupWithViewPager(homeBinding.viewPager, true);
             homeBinding.viewPager.setAdapter(viewPagerAdapter);
         }
+    }
+
+    @Override
+    public void onCategorySelected(Category item) {
+
+    }
+
+    @Override
+    public void onProductItemClicked(View view, PreviouslyOrderedProduct item) {
+        switch (view.getId()) {
+            case R.id.btn_rl_share:
+
+                break;
+            case R.id.btn_rl_fave:
+
+                break;
+            case R.id.txt_goto_cart:
+                ((DashBoardActivity) getActivity()).showDialog();
+                Product product = new Product();
+                product.setProductId(item.getId());
+                product.setQuantity(item.getCartQuantity() + "");
+                cartPresenter.addProductToCart(DataHelper.getAuthToken(getContext()), product, ApiConstants.Constants.API_ADD_CART);
+                break;
+        }
+    }
+
+    @Override
+    public void onSuccessResponse(Response response, int requestType) {
+        ((DashBoardActivity) getActivity()).dismissDialog();
+
+    }
+
+    @Override
+    public void onErrorResponse(String message, int requestType) {
+        ((DashBoardActivity) getActivity()).dismissDialog();
+
     }
 }
