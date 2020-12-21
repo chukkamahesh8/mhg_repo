@@ -78,7 +78,7 @@ public class WishlistAdapter extends RecyclerView.Adapter<WishlistAdapter.MyView
             tv_plus = itemView.findViewById(R.id.tv_plus);
             tv_minus = itemView.findViewById(R.id.tvminus);
             tv_minus = itemView.findViewById(R.id.txt_addto_cart);
-            tvAddCart = itemView.findViewById(R.id.tv_productcount);
+            tvAddCart = itemView.findViewById(R.id.txt_addto_cart);
             tv_plus.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
