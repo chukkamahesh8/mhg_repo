@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/_10sdp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/img_product"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:onClick="updateProfile"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginLeft="@dimen/_24sdp"
+            android:src="@drawable/ic_circle_ringl"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/img_product"
+            android:layout_marginLeft="@dimen/_9sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/rl_ProductName">
+
+            <TextView
+                android:id="@+id/txtProductName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Product Name"
+                android:textColor="@color/greyish_brown"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:id="@+id/Img_addToCart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="center"
+                android:clickable="true"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_add_to_acrt" />
+        </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/txt_productQuantitiy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="650 GRAMS"
+                android:layout_below="@id/rl_ProductName"
+                android:textColor="@color/greyish_brown"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_ProductPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="$6.49"
+                android:layout_below="@id/txt_productQuantitiy"
+                android:textColor="@color/greyish_brown"
+                android:fontFamily="@font/poppins_regular"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/txt_Quantity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="QUANTITY - 2"
+                android:gravity="end"
+                android:layout_below="@id/txt_ProductPrice"
+                android:textColor="@color/greyish_brown"
+                android:fontFamily="@font/poppins_semibold"
+                android:textSize="15sp" />
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

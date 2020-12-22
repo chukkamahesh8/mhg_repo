@@ -18,6 +18,7 @@
     <color name="colorlight_peach">#ffe0cf</color>
     <color name="colorlight_peach30">#4dffe0cf</color>
     <color name="colorwarm_grey">#707070</color>
+    <color name="colorwarm_grey_three">#787878</color>
     <color name="colorgreyish_brown">#464646</color>
     <color name="colorgreyish_brown_two">#515151</color>
     <color name="transparent">@android:color/transparent</color>
@@ -29,7 +30,10 @@
     <color name="bright_orange_0.16">#29ff5c01</color>
     <color name="color_greyish_brown_two_16">#515151</color>
     <color name="brownish_grey">#6b6969</color>
+    <color name="greyish_brown">#464646</color>
     <color name="bright_orange_0.55">#8cff5c01</color>
+    <color name="colorvibrant_green">#4006d62e</color>
+    <color name="colorblack_five">#202020</color>
 
     <array name="array_dot_active">
         <item>@color/colorAccent</item>
