@@ -8,7 +8,6 @@ import com.google.gson.annotations.SerializedName;
 
 public class DeleteCartResponse implements Serializable
 {
-
     @SerializedName("status")
     @Expose
     private Status status;

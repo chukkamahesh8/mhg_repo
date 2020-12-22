@@ -31,9 +31,11 @@ import com.classicsmart.myhomegrocers.models.cart.Product;
 import com.classicsmart.myhomegrocers.models.dashboard.Category;
 import com.classicsmart.myhomegrocers.models.dashboard.Data;
 import com.classicsmart.myhomegrocers.models.dashboard.PreviouslyOrderedProduct;
+import com.classicsmart.myhomegrocers.models.wishlist.WishListResponse;
 import com.classicsmart.myhomegrocers.network.ApiConstants;
 import com.classicsmart.myhomegrocers.presenters.ApiCallBack;
 import com.classicsmart.myhomegrocers.presenters.CartPresenter;
+import com.classicsmart.myhomegrocers.presenters.WishListPresenter;
 import com.classicsmart.myhomegrocers.utils.DataHelper;
 
 import java.util.ArrayList;
@@ -49,6 +51,7 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
     private ProductsAdapter productsAdapter;
     private ViewPagerAdapter viewPagerAdapter;
     private CartPresenter cartPresenter;
+    private WishListPresenter wishListPresenter;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -70,6 +73,7 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
     public void initApi() {
         apiCommunicator.getHomeDataApi();
         cartPresenter = new CartPresenter(this);
+        wishListPresenter = new WishListPresenter(this);
     }
 
     private void initViews() {
@@ -146,7 +150,7 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
             }
             if (!data.getPreviouslyOrderedProducts().isEmpty()) {
                 homeBinding.llPreviouslyOrderd.setVisibility(View.VISIBLE);
-                if (categoriesAdapter != null) {
+                if (productsAdapter != null) {
                     productsAdapter.setList(data.getPreviouslyOrderedProducts());
                 }
             } else {
@@ -170,7 +174,8 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
 
                 break;
             case R.id.btn_rl_fave:
-
+                ((DashBoardActivity) getActivity()).showDialog();
+                wishListPresenter.addProductToWishList(DataHelper.getAuthToken(getContext()), item.getId(), ApiConstants.Constants.API_ADD_WISHLIST);
                 break;
             case R.id.txt_goto_cart:
                 ((DashBoardActivity) getActivity()).showDialog();
@@ -190,6 +195,12 @@ public class HomeFragment extends Fragment implements CategoriesAdapter.Category
                 AddCartResponse cart = (AddCartResponse) response.body();
                 if (cart != null && cart.getStatus() != null && !cart.getStatus().getMessage().isEmpty()) {
                     Toast.makeText(getContext(), Html.fromHtml(cart.getStatus().getMessage()).toString(), Toast.LENGTH_SHORT).show();
+                }
+                break;
+                case ApiConstants.Constants.API_ADD_WISHLIST:
+                WishListResponse wishListResponse = (WishListResponse) response.body();
+                if (wishListResponse != null && wishListResponse.getStatus() != null && !wishListResponse.getStatus().getMessage().isEmpty()) {
+                    Toast.makeText(getContext(), Html.fromHtml(wishListResponse.getStatus().getMessage()).toString(), Toast.LENGTH_SHORT).show();
                 }
                 break;
         }

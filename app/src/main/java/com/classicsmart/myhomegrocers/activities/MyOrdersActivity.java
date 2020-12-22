@@ -3,6 +3,7 @@ package com.classicsmart.myhomegrocers.activities;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -24,12 +25,14 @@ public class MyOrdersActivity extends BaseActivity implements ApiCallBack {
     MyOrdersAdapter myOrderAdapter;
     MyOrdersPresenter myOrderPresenter;
     RecyclerView recyclerView;
+    TextView txtEmpty;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_orders);
         recyclerView= findViewById(R.id.rvmyOrders);
+        txtEmpty= findViewById(R.id.txt_empty);
         RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
         recyclerView.setLayoutManager(layoutManager);
        // addressData();
@@ -71,11 +74,15 @@ public class MyOrdersActivity extends BaseActivity implements ApiCallBack {
         switch (requestType) {
             case ApiConstants.Constants.API_GET_ORDERS:
                 GetMyOrdersResponse addressResponse=(GetMyOrdersResponse) response.body();
-                if (addressResponse.getStatus().getCode()==1){
+                if (addressResponse!=null){
                     myOrderAdapter = new MyOrdersAdapter(this,addressResponse.getData().getOrders());
+                    txtEmpty.setVisibility(View.GONE);
                     recyclerView.setAdapter(myOrderAdapter);
                     myOrderAdapter.notifyDataSetChanged();
                     Toast.makeText(this, addressResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
+                }else {
+                    txtEmpty.setVisibility(View.VISIBLE);
+                    recyclerView.setVisibility(View.GONE);
                 }
                 break;
         }

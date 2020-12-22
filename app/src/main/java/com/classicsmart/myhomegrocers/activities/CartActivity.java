@@ -74,13 +74,23 @@ public class CartActivity extends BaseActivity implements ApiCallBack, CartAdapt
         dismissDialog();
         switch (requestType) {
             case ApiConstants.Constants.API_GET_ORDERS:
-                GetCartResponse addressResponse = (GetCartResponse) response.body();
+                GetCartResponse cartResponse = (GetCartResponse) response.body();
                 try {
-                    tvToatlCartPrice.setText("$" + new DecimalFormat("##.##").format(addressResponse.getData().getTotalRaw().getValue()));
-                    cartAdapter = new CartAdapter(this, addressResponse.getData().getProducts(), this);
+                    tvToatlCartPrice.setText("$" + new DecimalFormat("##.##").format(cartResponse.getData().getTotalRaw().getValue()));
+                    cartAdapter = new CartAdapter(this, cartResponse.getData().getProducts(), this);
                     recyclerView.setAdapter(cartAdapter);
                     cartAdapter.notifyDataSetChanged();
-                    Toast.makeText(this, addressResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
+                    Toast.makeText(this, cartResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
+
+                }catch (Exception e){
+
+                }
+                break;
+                case ApiConstants.Constants.API_DELETE_CART:
+                    DeleteCartResponse deleteCartResponse = (DeleteCartResponse) response.body();
+                try {
+                    cartPresenter.getCartList(DataHelper.getAuthToken(this),ApiConstants.Constants.API_GET_ORDERS);
+                    Toast.makeText(this, deleteCartResponse.getStatus().getMessage(), Toast.LENGTH_SHORT).show();
 
                 }catch (Exception e){
 
